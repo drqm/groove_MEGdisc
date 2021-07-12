@@ -117,3 +117,90 @@
 141.5056 	DATA 	Keypress: escape
 141.5057 	EXP 	Global key event: shutdown. Calling <function quit_and_save at 0x000001DF213E0510>.
 141.5648 	EXP 	window1: mouseVisible = True
+21.1090 	WARNING 	Monitor specification not found. Creating a temporary one...
+21.1321 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1920, 1080]. Using actual size
+18.0900 	DATA 	Keypress: escape
+18.0900 	EXP 	Global key event: shutdown. Calling <function quit_and_save at 0x7f1ead2ed510>.
+18.0951 	EXP 	window1: mouseVisible = True
+2.7577 	WARNING 	Monitor specification not found. Creating a temporary one...
+2.7684 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1920, 1080]. Using actual size
+27.1927 	DATA 	Keypress: space
+30.7604 	DATA 	Keypress: space
+30.7661 	EXP 	unnamed TextStim: text = 'trial 1 / 4'
+32.7758 	EXP 	Sound  started
+48.8141 	DATA 	Keypress: 2
+48.8223 	EXP 	unnamed TextStim: text = 'trial 2 / 4'
+49.7842 	DATA 	Keypress: escape
+49.7842 	EXP 	Global key event: shutdown. Calling <function quit_and_save at 0x7f231bc0d510>.
+49.7876 	EXP 	window1: mouseVisible = True
+2.8326 	WARNING 	Monitor specification not found. Creating a temporary one...
+2.8428 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1920, 1080]. Using actual size
+0.7384 	DATA 	Keypress: space
+3.0103 	DATA 	Keypress: space
+3.0150 	EXP 	unnamed TextStim: text = 'trial 1 / 4'
+5.0250 	EXP 	Sound  started
+22.2644 	DATA 	Keypress: 2
+22.2726 	EXP 	unnamed TextStim: text = 'trial 2 / 4'
+24.2823 	EXP 	Sound  started
+40.9466 	DATA 	Keypress: 2
+40.9548 	EXP 	unnamed TextStim: text = 'trial 3 / 4'
+42.9644 	EXP 	Sound  started
+58.8870 	DATA 	Keypress: 1
+59.7038 	DATA 	Keypress: 1
+59.7119 	EXP 	unnamed TextStim: text = 'trial 4 / 4'
+61.7217 	EXP 	Sound  started
+78.1024 	DATA 	Keypress: 2
+80.6257 	DATA 	Keypress: space
+80.6366 	EXP 	unnamed TextStim: text = 'trial 1 / 48'
+82.6463 	EXP 	Sound  started
+98.9521 	DATA 	Keypress: 3
+98.9603 	EXP 	unnamed TextStim: text = 'trial 2 / 48'
+100.9700 	EXP 	Sound  started
+117.8761 	DATA 	Keypress: 1
+117.8843 	EXP 	unnamed TextStim: text = 'trial 3 / 48'
+119.8939 	EXP 	Sound  started
+136.5666 	DATA 	Keypress: 1
+136.5747 	EXP 	unnamed TextStim: text = 'trial 4 / 48'
+138.5843 	EXP 	Sound  started
+154.5820 	DATA 	Keypress: 1
+155.6657 	DATA 	Keypress: 1
+155.6738 	EXP 	unnamed TextStim: text = 'trial 5 / 48'
+157.6836 	EXP 	Sound  started
+174.0813 	DATA 	Keypress: 1
+174.0976 	EXP 	unnamed TextStim: text = 'trial 6 / 48'
+176.1072 	EXP 	Sound  started
+192.4547 	DATA 	Keypress: 3
+192.4629 	EXP 	unnamed TextStim: text = 'trial 7 / 48'
+194.4726 	EXP 	Sound  started
+211.0952 	DATA 	Keypress: 1
+211.1034 	EXP 	unnamed TextStim: text = 'trial 8 / 48'
+213.1131 	EXP 	Sound  started
+229.7190 	DATA 	Keypress: 2
+229.7273 	EXP 	unnamed TextStim: text = 'trial 9 / 48'
+231.7369 	EXP 	Sound  started
+248.0344 	DATA 	Keypress: 1
+248.0427 	EXP 	unnamed TextStim: text = 'trial 10 / 48'
+250.0523 	EXP 	Sound  started
+266.4082 	DATA 	Keypress: 1
+266.4163 	EXP 	unnamed TextStim: text = 'trial 11 / 48'
+268.4261 	EXP 	Sound  started
+285.1737 	DATA 	Keypress: 2
+285.1819 	EXP 	unnamed TextStim: text = 'trial 12 / 48'
+287.1916 	EXP 	Sound  started
+303.4891 	DATA 	Keypress: 1
+303.4973 	EXP 	unnamed TextStim: text = 'trial 13 / 48'
+305.5070 	EXP 	Sound  started
+308.6914 	DATA 	Keypress: escape
+308.6914 	EXP 	Global key event: shutdown. Calling <function quit_and_save at 0x7f9319c28510>.
+308.6965 	EXP 	window1: mouseVisible = True
+4.9864 	WARNING 	Monitor specification not found. Creating a temporary one...
+4.9964 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1920, 1080]. Using actual size
+0.6676 	DATA 	Keypress: space
+0.6724 	EXP 	unnamed TextStim: text = 'trial 1 / 144'
+2.6824 	EXP 	Sound  started
+19.2801 	DATA 	Keypress: 2
+19.2883 	EXP 	unnamed TextStim: text = 'trial 2 / 144'
+21.2980 	EXP 	Sound  started
+24.4323 	DATA 	Keypress: escape
+24.4323 	EXP 	Global key event: shutdown. Calling <function quit_and_save at 0x7f86e1f9c510>.
+24.4372 	EXP 	window1: mouseVisible = True

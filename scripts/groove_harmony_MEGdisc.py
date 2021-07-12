@@ -45,14 +45,14 @@ import random as rnd
 import os
 import csv
 # Uncomment only if MEG in Aarhus:
-#from triggers import setParallelData # only if
-#setParallelData(0)
+from triggers import setParallelData # only if
+setParallelData(0)
 
 # set the project directory
-os.chdir('C:/Users/au571303/Documents/projects/groove_MEGdisc')
-
+#os.chdir('C:/Users/au571303/Documents/projects/groove_MEGdisc')
+os.chdir('/home/stimuser/Desktop/groove_MEGdisc')
 # specify the frame rate of your screen
-frate = 60 #48 #60 #120 #
+frate = 120#60 #48 #60 #120 #
 prd = 1000/frate # inter frame interval in ms
 
 # Load stimulus list and store in a dictionary
@@ -68,9 +68,7 @@ for row in stim_obj:
 # load sounds
 sounds = {s: sound.Sound('stimuli/{:>02d}.wav'.format(int(s))) 
             for s in np.unique(blocks['practice']['number'] + 
-                                blocks['block1']['number'] +
-                                blocks['block2']['number'] +
-                                blocks['block3']['number'])}
+                                blocks['block1']['number'])}
 
 # randomize trial order
 for b in blocks:
@@ -87,23 +85,20 @@ def quit_and_save():
 event.globalKeys.add(key='escape', func=quit_and_save, name='shutdown')
 
 #response keys
-resp_keys = ['1','2','3','4','5']
+resp_keys = ['1','2','3']
 
 # Collect participant identity and options:
 ID_box = gui.Dlg(title = 'Subject identity')
 ID_box.addField('ID: ')
-ID_box.addField('counterbalance (blank or 1 = no, 2 = random order): ')
 ID_box.addField('practice? (YES: 1, higher or blank; NO: 0): ')
 sub_id = ID_box.show()
 
 # change counterbalance order
-block_order = [0,1,2]
-if sub_id[1] == '2':
-   block_order = rnd.shuffle([0,1,2])
+block_order = [0]#,1,2]
 
 # create switch to do practice block or not
 practice_switch = 1
-if sub_id[2] == '0':
+if sub_id[1] == '0':
     practice_switch = 0
 
 # create display window and corresponding texts
@@ -115,18 +110,20 @@ fixation = visual.TextStim(win, text='+', color=txt_color, height=0.2)
 instructions_txt =  visual.TextStim(win, 
                 text = 'You will hear various short musical patterns.\n\n'
                 'You will also hear a target sound presented a few seconds after each pattern. \n\n'
-                'This sound could arrive slightly later or earlier than expected according to the beat and '
-                '(i.e the pulse or rhythmic regularity) established by the pattern.\n\n'
-                'Please indicate whether the target sound arrives earlier or later than expected by pressing the buttons as follows:\n\n '
-                '1 = earlier than expected\n'
-                '2 = later than expected\n\n'
+                'This sound could arrive either on the beat, or slightly later or earlier than the beat, '
+                'according to the rhythmic regularity established by the pattern.\n\n'
+                'Please indicate whether the target sound arrives on the beat, earlier or later by pressing the buttons as follows:\n\n '
+                '1 = earlier\n'
+                '2 = on the beat \n'
+                '3 = later\n\n'
                 'Press a button to continue.',
                 color=txt_color, wrapWidth=1.8)
 
 rating_txt = visual.TextStim(win, 
-                text = 'Was the target sound earlier or later than expected?\n\n'
-                        '1 = earlier than expected\n'
-                        '2 = later than expected\n\n',
+                text = 'Was the target sound on the beat, earlier or later?\n\n'
+                            '1 = earlier\n'
+                            '2 = on the beat \n'
+                            '3 = later\n\n',
                 color=txt_color, wrapWidth=1.8)
 
 practice = visual.TextStim(win, 
@@ -142,7 +139,7 @@ main_task = visual.TextStim(win,
 break_txt = visual.TextStim(win,
                 text = 'Now it is time for a little break.\n'
                         'Take as much time as you need.\n\n'
-                        'Press a button when ready to continue.',
+                        'We will continue when ready.',
                 color=txt_color, wrapWidth=1.8)
 
 block_end_txt = visual.TextStim(win, 
@@ -209,7 +206,7 @@ def block_run(s_dict, s_order, b_sounds, breaks=[]):
         nextFlip = win.getFutureFlipTime(clock='ptb')
         startTime = win.getFutureFlipTime(clock=exp_time)
         trigger = int(s_dict['trigger'][midx])
-        #win.callOnFlip(setParallelData, int(trigger)) # only if MEG in Aarhus
+        win.callOnFlip(setParallelData, int(trigger)) # only if MEG in Aarhus
         win.callOnFlip(print, trigger)
         b_sounds[m].play(when = nextFlip)
         RT.reset()
@@ -240,11 +237,11 @@ def block_run(s_dict, s_order, b_sounds, breaks=[]):
         if mtrial in breaks:
             break_txt.draw()
             win.flip()
-            event.waitKeys()
+            event.waitKeys(keyList = ['space'])
 
 # Now run the experiment.
-bnames = ['block1','block2','block3']
-bnames = [bnames[b] for b in block_order] # counterbalance blocks
+bnames = ['block1']#,'block2','block3']
+#bnames = [bnames[b] for b in block_order] # counterbalance blocks
 for bidx,b in enumerate(bnames):
     
     # present instructions
@@ -265,7 +262,7 @@ for bidx,b in enumerate(bnames):
         event.waitKeys(keyList = ['space'])
 
     #run main task
-    block_run(blocks[b],blocks[b]['order'], sounds, breaks = [23])
+    block_run(blocks[b],blocks[b]['order'], sounds, breaks = [23,47,71,95,119])
     
     if  (bidx + 1) < len(bnames):
         block_end_txt.draw()
