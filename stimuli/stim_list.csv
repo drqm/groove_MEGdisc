@@ -1,0 +1,149 @@
+trial_code,code,number,name,rhythm,harmony,condition,block,trigger
+0,0,121,LR7 LH4,low,low,Anticipated,practice,231
+0,0,381,HR7 HH6,high,high,Delayed,practice,232
+0,0,249,Mariato Clave MR5 MH1,medium,medium,OnTime,practice,233
+0,0,123,LR7 MH2,low,medium,Anticipated,practice,234
+1,1,195,METRONOME 1 MH,iso,medium,Anticipated,block1,1
+2,2,198,METRONOME 1 HH,iso,high,Anticipated,block1,2
+3,3,194,METRONOME 2 MH,iso,medium,Anticipated,block1,3
+4,4,197,METRONOME 2 HH,iso,high,Anticipated,block1,4
+5,5,105,LOW RHYTHM 1 MH,low,medium,Anticipated,block1,5
+6,6,107,LOW RHYTHM 1 HH,low,high,Anticipated,block1,6
+7,7,124,LOW RHYTHM 3 MH,low,medium,Anticipated,block1,7
+8,8,126,LOW RHYTHM 3 HH,low,high,Anticipated,block1,8
+9,9,133,MEDIUM RHYTHM 1 MH,medium,medium,Anticipated,block1,9
+10,10,135,MEDIUM RHYTHM 1 HH,medium,high,Anticipated,block1,10
+11,11,150,MEDIUM RHYTHM 3 MH,medium,medium,Anticipated,block1,11
+12,12,152,MEDIUM RHYTHM 3 HH,medium,high,Anticipated,block1,12
+13,13,159,HIGH RHYTHM 1 MH,high,medium,Anticipated,block1,13
+14,14,161,HIGH RHYTHM 1 HH,high,high,Anticipated,block1,14
+15,15,169,HIGH RHYTHM 2 MH,high,medium,Anticipated,block1,15
+16,16,171,HIGH RHYTHM 2 HH,high,high,Anticipated,block1,16
+17,1,295,METRONOME 1 MH,iso,medium,OnTime,block1,101
+18,2,298,METRONOME 1 HH,iso,high,OnTime,block1,102
+19,3,294,METRONOME 2 MH,iso,medium,OnTime,block1,103
+20,4,297,METRONOME 2 HH,iso,high,OnTime,block1,104
+21,5,205,LOW RHYTHM 1 MH,low,medium,OnTime,block1,105
+22,6,207,LOW RHYTHM 1 HH,low,high,OnTime,block1,106
+23,7,224,LOW RHYTHM 3 MH,low,medium,OnTime,block1,107
+24,8,226,LOW RHYTHM 3 HH,low,high,OnTime,block1,108
+25,9,233,MEDIUM RHYTHM 1 MH,medium,medium,OnTime,block1,109
+26,10,235,MEDIUM RHYTHM 1 HH,medium,high,OnTime,block1,110
+27,11,250,MEDIUM RHYTHM 3 MH,medium,medium,OnTime,block1,111
+28,12,252,MEDIUM RHYTHM 3 HH,medium,high,OnTime,block1,112
+29,13,259,HIGH RHYTHM 1 MH,high,medium,OnTime,block1,113
+30,14,261,HIGH RHYTHM 1 HH,high,high,OnTime,block1,114
+31,15,269,HIGH RHYTHM 2 MH,high,medium,OnTime,block1,115
+32,16,271,HIGH RHYTHM 2 HH,high,high,OnTime,block1,116
+33,1,395,METRONOME 1 MH,iso,medium,Delayed,block1,201
+34,2,398,METRONOME 1 HH,iso,high,Delayed,block1,202
+35,3,394,METRONOME 2 MH,iso,medium,Delayed,block1,203
+36,4,397,METRONOME 2 HH,iso,high,Delayed,block1,204
+37,5,305,LOW RHYTHM 1 MH,low,medium,Delayed,block1,205
+38,6,307,LOW RHYTHM 1 HH,low,high,Delayed,block1,206
+39,7,324,LOW RHYTHM 3 MH,low,medium,Delayed,block1,207
+40,8,326,LOW RHYTHM 3 HH,low,high,Delayed,block1,208
+41,9,333,MEDIUM RHYTHM 1 MH,medium,medium,Delayed,block1,209
+42,10,335,MEDIUM RHYTHM 1 HH,medium,high,Delayed,block1,210
+43,11,350,MEDIUM RHYTHM 3 MH,medium,medium,Delayed,block1,211
+44,12,352,MEDIUM RHYTHM 3 HH,medium,high,Delayed,block1,212
+45,13,359,HIGH RHYTHM 1 MH,high,medium,Delayed,block1,213
+46,14,361,HIGH RHYTHM 1 HH,high,high,Delayed,block1,214
+47,15,369,HIGH RHYTHM 2 MH,high,medium,Delayed,block1,215
+48,16,371,HIGH RHYTHM 2 HH,high,high,Delayed,block1,216
+1,1,195,METRONOME 1 MH,iso,medium,Anticipated,block2,1
+2,2,198,METRONOME 1 HH,iso,high,Anticipated,block2,2
+3,3,194,METRONOME 2 MH,iso,medium,Anticipated,block2,3
+4,4,197,METRONOME 2 HH,iso,high,Anticipated,block2,4
+5,5,105,LOW RHYTHM 1 MH,low,medium,Anticipated,block2,5
+6,6,107,LOW RHYTHM 1 HH,low,high,Anticipated,block2,6
+7,7,124,LOW RHYTHM 3 MH,low,medium,Anticipated,block2,7
+8,8,126,LOW RHYTHM 3 HH,low,high,Anticipated,block2,8
+9,9,133,MEDIUM RHYTHM 1 MH,medium,medium,Anticipated,block2,9
+10,10,135,MEDIUM RHYTHM 1 HH,medium,high,Anticipated,block2,10
+11,11,150,MEDIUM RHYTHM 3 MH,medium,medium,Anticipated,block2,11
+12,12,152,MEDIUM RHYTHM 3 HH,medium,high,Anticipated,block2,12
+13,13,159,HIGH RHYTHM 1 MH,high,medium,Anticipated,block2,13
+14,14,161,HIGH RHYTHM 1 HH,high,high,Anticipated,block2,14
+15,15,169,HIGH RHYTHM 2 MH,high,medium,Anticipated,block2,15
+16,16,171,HIGH RHYTHM 2 HH,high,high,Anticipated,block2,16
+17,1,295,METRONOME 1 MH,iso,medium,OnTime,block2,101
+18,2,298,METRONOME 1 HH,iso,high,OnTime,block2,102
+19,3,294,METRONOME 2 MH,iso,medium,OnTime,block2,103
+20,4,297,METRONOME 2 HH,iso,high,OnTime,block2,104
+21,5,205,LOW RHYTHM 1 MH,low,medium,OnTime,block2,105
+22,6,207,LOW RHYTHM 1 HH,low,high,OnTime,block2,106
+23,7,224,LOW RHYTHM 3 MH,low,medium,OnTime,block2,107
+24,8,226,LOW RHYTHM 3 HH,low,high,OnTime,block2,108
+25,9,233,MEDIUM RHYTHM 1 MH,medium,medium,OnTime,block2,109
+26,10,235,MEDIUM RHYTHM 1 HH,medium,high,OnTime,block2,110
+27,11,250,MEDIUM RHYTHM 3 MH,medium,medium,OnTime,block2,111
+28,12,252,MEDIUM RHYTHM 3 HH,medium,high,OnTime,block2,112
+29,13,259,HIGH RHYTHM 1 MH,high,medium,OnTime,block2,113
+30,14,261,HIGH RHYTHM 1 HH,high,high,OnTime,block2,114
+31,15,269,HIGH RHYTHM 2 MH,high,medium,OnTime,block2,115
+32,16,271,HIGH RHYTHM 2 HH,high,high,OnTime,block2,116
+33,1,395,METRONOME 1 MH,iso,medium,Delayed,block2,201
+34,2,398,METRONOME 1 HH,iso,high,Delayed,block2,202
+35,3,394,METRONOME 2 MH,iso,medium,Delayed,block2,203
+36,4,397,METRONOME 2 HH,iso,high,Delayed,block2,204
+37,5,305,LOW RHYTHM 1 MH,low,medium,Delayed,block2,205
+38,6,307,LOW RHYTHM 1 HH,low,high,Delayed,block2,206
+39,7,324,LOW RHYTHM 3 MH,low,medium,Delayed,block2,207
+40,8,326,LOW RHYTHM 3 HH,low,high,Delayed,block2,208
+41,9,333,MEDIUM RHYTHM 1 MH,medium,medium,Delayed,block2,209
+42,10,335,MEDIUM RHYTHM 1 HH,medium,high,Delayed,block2,210
+43,11,350,MEDIUM RHYTHM 3 MH,medium,medium,Delayed,block2,211
+44,12,352,MEDIUM RHYTHM 3 HH,medium,high,Delayed,block2,212
+45,13,359,HIGH RHYTHM 1 MH,high,medium,Delayed,block2,213
+46,14,361,HIGH RHYTHM 1 HH,high,high,Delayed,block2,214
+47,15,369,HIGH RHYTHM 2 MH,high,medium,Delayed,block2,215
+48,16,371,HIGH RHYTHM 2 HH,high,high,Delayed,block2,216
+1,1,195,METRONOME 1 MH,iso,medium,Anticipated,block3,1
+2,2,198,METRONOME 1 HH,iso,high,Anticipated,block3,2
+3,3,194,METRONOME 2 MH,iso,medium,Anticipated,block3,3
+4,4,197,METRONOME 2 HH,iso,high,Anticipated,block3,4
+5,5,105,LOW RHYTHM 1 MH,low,medium,Anticipated,block3,5
+6,6,107,LOW RHYTHM 1 HH,low,high,Anticipated,block3,6
+7,7,124,LOW RHYTHM 3 MH,low,medium,Anticipated,block3,7
+8,8,126,LOW RHYTHM 3 HH,low,high,Anticipated,block3,8
+9,9,133,MEDIUM RHYTHM 1 MH,medium,medium,Anticipated,block3,9
+10,10,135,MEDIUM RHYTHM 1 HH,medium,high,Anticipated,block3,10
+11,11,150,MEDIUM RHYTHM 3 MH,medium,medium,Anticipated,block3,11
+12,12,152,MEDIUM RHYTHM 3 HH,medium,high,Anticipated,block3,12
+13,13,159,HIGH RHYTHM 1 MH,high,medium,Anticipated,block3,13
+14,14,161,HIGH RHYTHM 1 HH,high,high,Anticipated,block3,14
+15,15,169,HIGH RHYTHM 2 MH,high,medium,Anticipated,block3,15
+16,16,171,HIGH RHYTHM 2 HH,high,high,Anticipated,block3,16
+17,1,295,METRONOME 1 MH,iso,medium,OnTime,block3,101
+18,2,298,METRONOME 1 HH,iso,high,OnTime,block3,102
+19,3,294,METRONOME 2 MH,iso,medium,OnTime,block3,103
+20,4,297,METRONOME 2 HH,iso,high,OnTime,block3,104
+21,5,205,LOW RHYTHM 1 MH,low,medium,OnTime,block3,105
+22,6,207,LOW RHYTHM 1 HH,low,high,OnTime,block3,106
+23,7,224,LOW RHYTHM 3 MH,low,medium,OnTime,block3,107
+24,8,226,LOW RHYTHM 3 HH,low,high,OnTime,block3,108
+25,9,233,MEDIUM RHYTHM 1 MH,medium,medium,OnTime,block3,109
+26,10,235,MEDIUM RHYTHM 1 HH,medium,high,OnTime,block3,110
+27,11,250,MEDIUM RHYTHM 3 MH,medium,medium,OnTime,block3,111
+28,12,252,MEDIUM RHYTHM 3 HH,medium,high,OnTime,block3,112
+29,13,259,HIGH RHYTHM 1 MH,high,medium,OnTime,block3,113
+30,14,261,HIGH RHYTHM 1 HH,high,high,OnTime,block3,114
+31,15,269,HIGH RHYTHM 2 MH,high,medium,OnTime,block3,115
+32,16,271,HIGH RHYTHM 2 HH,high,high,OnTime,block3,116
+33,1,395,METRONOME 1 MH,iso,medium,Delayed,block3,201
+34,2,398,METRONOME 1 HH,iso,high,Delayed,block3,202
+35,3,394,METRONOME 2 MH,iso,medium,Delayed,block3,203
+36,4,397,METRONOME 2 HH,iso,high,Delayed,block3,204
+37,5,305,LOW RHYTHM 1 MH,low,medium,Delayed,block3,205
+38,6,307,LOW RHYTHM 1 HH,low,high,Delayed,block3,206
+39,7,324,LOW RHYTHM 3 MH,low,medium,Delayed,block3,207
+40,8,326,LOW RHYTHM 3 HH,low,high,Delayed,block3,208
+41,9,333,MEDIUM RHYTHM 1 MH,medium,medium,Delayed,block3,209
+42,10,335,MEDIUM RHYTHM 1 HH,medium,high,Delayed,block3,210
+43,11,350,MEDIUM RHYTHM 3 MH,medium,medium,Delayed,block3,211
+44,12,352,MEDIUM RHYTHM 3 HH,medium,high,Delayed,block3,212
+45,13,359,HIGH RHYTHM 1 MH,high,medium,Delayed,block3,213
+46,14,361,HIGH RHYTHM 1 HH,high,high,Delayed,block3,214
+47,15,369,HIGH RHYTHM 2 MH,high,medium,Delayed,block3,215
+48,16,371,HIGH RHYTHM 2 HH,high,high,Delayed,block3,216

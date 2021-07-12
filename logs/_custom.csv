@@ -1,0 +1,8 @@
+subject,trialCode,code,number,name,rhythm,harmony,condition,block,startTime,response,rt,trigger
+,0,0,123,LR7 MH2,low,medium,Anticipated,practice,4.931274449569173,2,17.817765600048006,234
+,0,0,381,HR7 HH6,high,high,Delayed,practice,24.778045149636455,1,16.844512199983,232
+,0,0,121,LR7 LH4,low,low,Anticipated,practice,43.64830044959672,1,17.533957800013013,231
+,0,0,249,Mariato Clave MR5 MH1,medium,medium,OnTime,practice,63.21806254959665,1,17.154441500082612,233
+,22,6,207,LOW RHYTHM 1 HH,low,high,OnTime,block1,85.0134769496508,2,17.06605949997902,106
+,36,4,397,METRONOME 2 HH,iso,high,Delayed,block1,104.10416454961523,2,17.366981800063513,204
+,14,14,161,HIGH RHYTHM 1 HH,high,high,Anticipated,block1,123.4964100496145,2,16.167372000054456,14
