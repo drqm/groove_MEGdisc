@@ -1,0 +1,228 @@
+10.3193 	WARNING 	Monitor specification not found. Creating a temporary one...
+10.3330 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1920, 1080]. Using actual size
+1.4237 	DATA 	Keypress: space
+9.8632 	DATA 	Keypress: space
+9.8732 	EXP 	unnamed TextStim: text = 'trial 1 / 2'
+11.8790 	EXP 	Sound  started
+23.9084 	EXP 	unnamed TextStim: text = 'trial 2 / 2'
+25.9135 	EXP 	Sound  started
+26.4592 	DATA 	Keypress: escape
+26.4593 	EXP 	Global key event: shutdown. Calling <function quit_and_save at 0x00000227B9EF0510>.
+26.5189 	EXP 	window1: mouseVisible = True
+9.0631 	WARNING 	Monitor specification not found. Creating a temporary one...
+9.0875 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1920, 1080]. Using actual size
+1.2673 	DATA 	Keypress: space
+2.2108 	DATA 	Keypress: space
+2.2218 	EXP 	unnamed TextStim: text = 'trial 1 / 2'
+4.2267 	EXP 	Sound  started
+14.5885 	DATA 	Keypress: 4
+14.6047 	EXP 	unnamed TextStim: text = 'trial 2 / 2'
+16.6098 	EXP 	Sound  started
+22.2525 	DATA 	Keypress: 2
+24.1149 	DATA 	Keypress: space
+24.1219 	EXP 	unnamed TextStim: text = 'trial 1 / 32'
+26.1259 	EXP 	Sound  started
+32.2484 	DATA 	Keypress: 2
+32.2634 	EXP 	unnamed TextStim: text = 'trial 2 / 32'
+34.2681 	EXP 	Sound  started
+41.1273 	DATA 	Keypress: 3
+41.1430 	EXP 	unnamed TextStim: text = 'trial 3 / 32'
+43.1486 	EXP 	Sound  started
+49.8233 	DATA 	Keypress: 2
+49.8393 	EXP 	unnamed TextStim: text = 'trial 4 / 32'
+51.8436 	EXP 	Sound  started
+58.3873 	DATA 	Keypress: 4
+58.4192 	EXP 	unnamed TextStim: text = 'trial 5 / 32'
+60.4242 	EXP 	Sound  started
+68.4979 	DATA 	Keypress: 4
+68.5162 	EXP 	unnamed TextStim: text = 'trial 6 / 32'
+70.5210 	EXP 	Sound  started
+77.3610 	DATA 	Keypress: 4
+77.3813 	EXP 	unnamed TextStim: text = 'trial 7 / 32'
+79.3860 	EXP 	Sound  started
+89.0226 	DATA 	Keypress: 3
+89.0403 	EXP 	unnamed TextStim: text = 'trial 8 / 32'
+91.0448 	EXP 	Sound  started
+97.6685 	DATA 	Keypress: 2
+97.6852 	EXP 	unnamed TextStim: text = 'trial 9 / 32'
+99.6902 	EXP 	Sound  started
+105.4650 	DATA 	Keypress: 2
+105.4815 	EXP 	unnamed TextStim: text = 'trial 10 / 32'
+107.4861 	EXP 	Sound  started
+112.9442 	DATA 	Keypress: 3
+112.9603 	EXP 	unnamed TextStim: text = 'trial 11 / 32'
+114.9648 	EXP 	Sound  started
+120.6241 	DATA 	Keypress: 3
+120.6407 	EXP 	unnamed TextStim: text = 'trial 12 / 32'
+122.6465 	EXP 	Sound  started
+128.0875 	DATA 	Keypress: 2
+128.1035 	EXP 	unnamed TextStim: text = 'trial 13 / 32'
+130.1084 	EXP 	Sound  started
+136.4194 	DATA 	Keypress: 2
+136.4498 	EXP 	unnamed TextStim: text = 'trial 14 / 32'
+138.4545 	EXP 	Sound  started
+145.8127 	DATA 	Keypress: 3
+145.8287 	EXP 	unnamed TextStim: text = 'trial 15 / 32'
+147.8332 	EXP 	Sound  started
+153.3262 	DATA 	Keypress: 1
+153.3421 	EXP 	unnamed TextStim: text = 'trial 16 / 32'
+155.3466 	EXP 	Sound  started
+161.4723 	DATA 	Keypress: 5
+164.4188 	DATA 	Keypress: space
+164.4261 	EXP 	unnamed TextStim: text = 'trial 17 / 32'
+166.4310 	EXP 	Sound  started
+172.1851 	DATA 	Keypress: 2
+172.2005 	EXP 	unnamed TextStim: text = 'trial 18 / 32'
+174.2054 	EXP 	Sound  started
+180.2308 	DATA 	Keypress: 5
+180.2464 	EXP 	unnamed TextStim: text = 'trial 19 / 32'
+182.2511 	EXP 	Sound  started
+188.2443 	DATA 	Keypress: 2
+188.2598 	EXP 	unnamed TextStim: text = 'trial 20 / 32'
+190.2646 	EXP 	Sound  started
+195.9567 	DATA 	Keypress: 1
+195.9727 	EXP 	unnamed TextStim: text = 'trial 21 / 32'
+197.9786 	EXP 	Sound  started
+204.5201 	DATA 	Keypress: 5
+204.5360 	EXP 	unnamed TextStim: text = 'trial 22 / 32'
+206.5410 	EXP 	Sound  started
+212.9667 	DATA 	Keypress: 5
+212.9831 	EXP 	unnamed TextStim: text = 'trial 23 / 32'
+214.9882 	EXP 	Sound  started
+221.5634 	DATA 	Keypress: 2
+221.5948 	EXP 	unnamed TextStim: text = 'trial 24 / 32'
+223.5995 	EXP 	Sound  started
+229.6758 	DATA 	Keypress: 1
+229.6919 	EXP 	unnamed TextStim: text = 'trial 25 / 32'
+231.6967 	EXP 	Sound  started
+238.3377 	DATA 	Keypress: 4
+238.3537 	EXP 	unnamed TextStim: text = 'trial 26 / 32'
+240.3583 	EXP 	Sound  started
+245.5011 	DATA 	Keypress: 2
+245.5171 	EXP 	unnamed TextStim: text = 'trial 27 / 32'
+247.5220 	EXP 	Sound  started
+253.3309 	DATA 	Keypress: 3
+253.3470 	EXP 	unnamed TextStim: text = 'trial 28 / 32'
+255.3516 	EXP 	Sound  started
+260.9099 	DATA 	Keypress: 4
+260.9269 	EXP 	unnamed TextStim: text = 'trial 29 / 32'
+262.9318 	EXP 	Sound  started
+268.9581 	DATA 	Keypress: 4
+268.9743 	EXP 	unnamed TextStim: text = 'trial 30 / 32'
+270.9785 	EXP 	Sound  started
+276.9539 	DATA 	Keypress: 3
+276.9701 	EXP 	unnamed TextStim: text = 'trial 31 / 32'
+278.9746 	EXP 	Sound  started
+284.8996 	DATA 	Keypress: 5
+284.9161 	EXP 	unnamed TextStim: text = 'trial 32 / 32'
+286.9211 	EXP 	Sound  started
+292.8462 	DATA 	Keypress: 4
+296.8830 	DATA 	Keypress: space
+305.4989 	DATA 	Keypress: space
+307.2589 	DATA 	Keypress: space
+307.2670 	EXP 	unnamed TextStim: text = 'trial 1 / 2'
+309.2716 	EXP 	Sound  started
+316.6201 	DATA 	Keypress: 2
+316.6518 	EXP 	unnamed TextStim: text = 'trial 2 / 2'
+318.6564 	EXP 	Sound  started
+323.9159 	DATA 	Keypress: 3
+325.7070 	DATA 	Keypress: space
+325.7142 	EXP 	unnamed TextStim: text = 'trial 1 / 32'
+327.7188 	EXP 	Sound  started
+332.9799 	DATA 	Keypress: 1
+333.0110 	EXP 	unnamed TextStim: text = 'trial 2 / 32'
+335.0154 	EXP 	Sound  started
+340.5090 	DATA 	Keypress: 3
+340.5250 	EXP 	unnamed TextStim: text = 'trial 3 / 32'
+342.5299 	EXP 	Sound  started
+347.9880 	DATA 	Keypress: 4
+348.0041 	EXP 	unnamed TextStim: text = 'trial 4 / 32'
+350.0093 	EXP 	Sound  started
+355.4181 	DATA 	Keypress: 2
+355.4338 	EXP 	unnamed TextStim: text = 'trial 5 / 32'
+357.4385 	EXP 	Sound  started
+362.9983 	DATA 	Keypress: 2
+363.0143 	EXP 	unnamed TextStim: text = 'trial 6 / 32'
+365.0197 	EXP 	Sound  started
+371.4446 	DATA 	Keypress: 4
+371.4601 	EXP 	unnamed TextStim: text = 'trial 7 / 32'
+373.4647 	EXP 	Sound  started
+380.1410 	DATA 	Keypress: 3
+380.1573 	EXP 	unnamed TextStim: text = 'trial 8 / 32'
+382.1626 	EXP 	Sound  started
+388.2534 	DATA 	Keypress: 2
+388.2707 	EXP 	unnamed TextStim: text = 'trial 9 / 32'
+390.2751 	EXP 	Sound  started
+395.7996 	DATA 	Keypress: 3
+395.8157 	EXP 	unnamed TextStim: text = 'trial 10 / 32'
+397.8207 	EXP 	Sound  started
+403.0468 	DATA 	Keypress: 2
+403.0624 	EXP 	unnamed TextStim: text = 'trial 11 / 32'
+405.0675 	EXP 	Sound  started
+411.3259 	DATA 	Keypress: 5
+411.3416 	EXP 	unnamed TextStim: text = 'trial 12 / 32'
+413.3468 	EXP 	Sound  started
+419.2397 	DATA 	Keypress: 3
+419.2567 	EXP 	unnamed TextStim: text = 'trial 13 / 32'
+421.2617 	EXP 	Sound  started
+426.4361 	DATA 	Keypress: 2
+426.4518 	EXP 	unnamed TextStim: text = 'trial 14 / 32'
+428.4564 	EXP 	Sound  started
+433.5498 	DATA 	Keypress: 2
+433.5665 	EXP 	unnamed TextStim: text = 'trial 15 / 32'
+435.5714 	EXP 	Sound  started
+440.7969 	DATA 	Keypress: 2
+440.8134 	EXP 	unnamed TextStim: text = 'trial 16 / 32'
+442.8180 	EXP 	Sound  started
+449.2600 	DATA 	Keypress: 4
+454.0830 	DATA 	Keypress: space
+454.0914 	EXP 	unnamed TextStim: text = 'trial 17 / 32'
+456.0964 	EXP 	Sound  started
+462.5695 	DATA 	Keypress: 5
+462.5857 	EXP 	unnamed TextStim: text = 'trial 18 / 32'
+464.5902 	EXP 	Sound  started
+471.4325 	DATA 	Keypress: 4
+471.4484 	EXP 	unnamed TextStim: text = 'trial 19 / 32'
+473.4530 	EXP 	Sound  started
+483.2435 	DATA 	Keypress: 3
+483.2595 	EXP 	unnamed TextStim: text = 'trial 20 / 32'
+485.2645 	EXP 	Sound  started
+490.6238 	DATA 	Keypress: 4
+490.6391 	EXP 	unnamed TextStim: text = 'trial 21 / 32'
+492.6435 	EXP 	Sound  started
+498.4370 	DATA 	Keypress: 2
+498.4528 	EXP 	unnamed TextStim: text = 'trial 22 / 32'
+500.4577 	EXP 	Sound  started
+505.7837 	DATA 	Keypress: 3
+505.7995 	EXP 	unnamed TextStim: text = 'trial 23 / 32'
+507.8049 	EXP 	Sound  started
+513.7138 	DATA 	Keypress: 3
+513.7293 	EXP 	unnamed TextStim: text = 'trial 24 / 32'
+515.7346 	EXP 	Sound  started
+522.2601 	DATA 	Keypress: 5
+522.2764 	EXP 	unnamed TextStim: text = 'trial 25 / 32'
+524.2815 	EXP 	Sound  started
+530.2889 	DATA 	Keypress: 3
+530.3049 	EXP 	unnamed TextStim: text = 'trial 26 / 32'
+532.3089 	EXP 	Sound  started
+538.0691 	DATA 	Keypress: 2
+538.0847 	EXP 	unnamed TextStim: text = 'trial 27 / 32'
+540.0893 	EXP 	Sound  started
+545.5994 	DATA 	Keypress: 5
+545.6147 	EXP 	unnamed TextStim: text = 'trial 28 / 32'
+547.6199 	EXP 	Sound  started
+553.0458 	DATA 	Keypress: 2
+553.0627 	EXP 	unnamed TextStim: text = 'trial 29 / 32'
+555.0673 	EXP 	Sound  started
+560.0610 	DATA 	Keypress: 5
+560.0934 	EXP 	unnamed TextStim: text = 'trial 30 / 32'
+562.0983 	EXP 	Sound  started
+568.6212 	DATA 	Keypress: 1
+568.6371 	EXP 	unnamed TextStim: text = 'trial 31 / 32'
+570.6428 	EXP 	Sound  started
+575.7852 	DATA 	Keypress: 2
+575.8010 	EXP 	unnamed TextStim: text = 'trial 32 / 32'
+577.8059 	EXP 	Sound  started
+583.3654 	DATA 	Keypress: 5
+585.3150 	DATA 	Keypress: space
+585.4293 	EXP 	window1: mouseVisible = True

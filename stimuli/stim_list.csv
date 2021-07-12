@@ -1,8 +1,10 @@
 trial_code,code,number,name,rhythm,harmony,condition,block,trigger
 0,0,121,LR7 LH4,low,low,Anticipated,practice,231
-0,0,381,HR7 HH6,high,high,Delayed,practice,232
-0,0,249,Mariato Clave MR5 MH1,medium,medium,OnTime,practice,233
-0,0,123,LR7 MH2,low,medium,Anticipated,practice,234
+0,0,249,Mariato Clave MR5 MH1,medium,medium,OnTime,practice,232
+0,0,123,LR7 MH2,low,medium,Anticipated,practice,233
+0,0,125,LR7 HH3,low,high,Anticipated,practice,234
+0,0,340,Rumba Clave MR2 MH1,medium,high,Delayed,practice,235
+0,0,264,HR3 LH2,high,low,OnTime,practice,236
 1,1,195,METRONOME 1 MH,iso,medium,Anticipated,block1,1
 2,2,198,METRONOME 1 HH,iso,high,Anticipated,block1,2
 3,3,194,METRONOME 2 MH,iso,medium,Anticipated,block1,3
