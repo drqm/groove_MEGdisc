@@ -46,12 +46,12 @@ import os
 import csv
 
 # set the project directory
-os.chdir('C:/Users/au571303/Documents/projects/groove_MEGdisc')
-#os.chdir('/home/stimuser/Desktop/groove_MEGdisc')
+#os.chdir('C:/Users/au571303/Documents/projects/groove_MEGdisc')
+os.chdir('/home/stimuser/Desktop/groove_MEGdisc')
 # specify the frame rate of your screen
-frate = 60#120#60 #48 #60 #120 #
+frate = 120 #60#120#60 #48 #60 #120 #
 prd = 1000/frate # inter frame interval in ms
-send_triggers = 0
+send_triggers = 1 # in the MEG room set to 1, elsewhere set to 0
 
 if send_triggers:
     from triggers import setParallelData # only if
@@ -219,7 +219,12 @@ def block_run(s_dict, s_order, b_sounds, breaks=[]):
         b_sounds[m].play(when = nextFlip)
         RT.reset()
         # we synchronize stimulus delivery with screen frames for time acc.
-        for frs in range(int(np.round(16100/prd))): # wait 16 seconds
+        for frs in range(int(np.round(50/prd))): # wait 16 seconds
+            fixation.draw()
+            win.flip()
+        if send_triggers:
+            win.callOnFlip(setParallelData, 0) # only if MEG in Aarhus
+        for frs in range(int(np.round(16050/prd))): # wait 16 seconds
             fixation.draw()
             win.flip()
         event.clearEvents(eventType=None)#'keyboard')

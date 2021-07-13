@@ -1,0 +1,825 @@
+68.1813 	WARNING 	Monitor specification not found. Creating a temporary one...
+68.1908 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1920, 1080]. Using actual size
+13.0341 	DATA 	Keypress: 1
+13.0395 	EXP 	unnamed TextStim: text = 'trial 1 / 144'
+15.0490 	EXP 	Sound  started
+32.4135 	DATA 	Keypress: 3
+32.4216 	EXP 	unnamed TextStim: text = 'trial 2 / 144'
+34.4309 	EXP 	Sound  started
+51.4040 	DATA 	Keypress: 3
+51.4125 	EXP 	unnamed TextStim: text = 'trial 3 / 144'
+53.4219 	EXP 	Sound  started
+70.4781 	DATA 	Keypress: 1
+70.4862 	EXP 	unnamed TextStim: text = 'trial 4 / 144'
+72.4960 	EXP 	Sound  started
+89.2354 	DATA 	Keypress: 3
+89.2434 	EXP 	unnamed TextStim: text = 'trial 5 / 144'
+91.2529 	EXP 	Sound  started
+107.8090 	DATA 	Keypress: 3
+107.8173 	EXP 	unnamed TextStim: text = 'trial 6 / 144'
+109.8270 	EXP 	Sound  started
+126.3745 	DATA 	Keypress: 3
+126.3827 	EXP 	unnamed TextStim: text = 'trial 7 / 144'
+128.3924 	EXP 	Sound  started
+141.8641 	DATA 	Keypress: 2
+147.6160 	DATA 	Keypress: 2
+147.6242 	EXP 	unnamed TextStim: text = 'trial 8 / 144'
+149.6334 	EXP 	Sound  started
+166.6566 	DATA 	Keypress: 3
+166.6648 	EXP 	unnamed TextStim: text = 'trial 9 / 144'
+168.6742 	EXP 	Sound  started
+184.9557 	DATA 	Keypress: 3
+184.9719 	EXP 	unnamed TextStim: text = 'trial 10 / 144'
+186.9815 	EXP 	Sound  started
+203.2374 	DATA 	Keypress: 3
+203.2455 	EXP 	unnamed TextStim: text = 'trial 11 / 144'
+205.2552 	EXP 	Sound  started
+221.5528 	DATA 	Keypress: 3
+221.5609 	EXP 	unnamed TextStim: text = 'trial 12 / 144'
+223.5706 	EXP 	Sound  started
+240.2432 	DATA 	Keypress: 3
+240.2514 	EXP 	unnamed TextStim: text = 'trial 13 / 144'
+242.2610 	EXP 	Sound  started
+258.6086 	DATA 	Keypress: 3
+258.6167 	EXP 	unnamed TextStim: text = 'trial 14 / 144'
+260.6263 	EXP 	Sound  started
+278.2912 	DATA 	Keypress: 3
+278.2994 	EXP 	unnamed TextStim: text = 'trial 15 / 144'
+280.3084 	EXP 	Sound  started
+297.3902 	DATA 	Keypress: 2
+297.3984 	EXP 	unnamed TextStim: text = 'trial 16 / 144'
+299.4081 	EXP 	Sound  started
+317.2645 	DATA 	Keypress: 3
+317.2727 	EXP 	unnamed TextStim: text = 'trial 17 / 144'
+319.2823 	EXP 	Sound  started
+336.4054 	DATA 	Keypress: 3
+336.4133 	EXP 	unnamed TextStim: text = 'trial 18 / 144'
+338.4230 	EXP 	Sound  started
+355.3541 	DATA 	Keypress: 1
+355.3622 	EXP 	unnamed TextStim: text = 'trial 19 / 144'
+357.3719 	EXP 	Sound  started
+374.7700 	DATA 	Keypress: 1
+374.7782 	EXP 	unnamed TextStim: text = 'trial 20 / 144'
+376.7876 	EXP 	Sound  started
+394.4858 	DATA 	Keypress: 2
+394.4939 	EXP 	unnamed TextStim: text = 'trial 21 / 144'
+396.5036 	EXP 	Sound  started
+413.2848 	DATA 	Keypress: 3
+413.2929 	EXP 	unnamed TextStim: text = 'trial 22 / 144'
+415.3021 	EXP 	Sound  started
+432.5088 	DATA 	Keypress: 3
+432.5170 	EXP 	unnamed TextStim: text = 'trial 23 / 144'
+434.5266 	EXP 	Sound  started
+450.7324 	DATA 	Keypress: 2
+450.7406 	EXP 	unnamed TextStim: text = 'trial 24 / 144'
+452.7503 	EXP 	Sound  started
+470.1232 	DATA 	Keypress: 3
+595.6033 	DATA 	Keypress: space
+595.6133 	EXP 	unnamed TextStim: text = 'trial 25 / 144'
+597.6231 	EXP 	Sound  started
+614.4954 	DATA 	Keypress: 2
+614.5035 	EXP 	unnamed TextStim: text = 'trial 26 / 144'
+616.5132 	EXP 	Sound  started
+634.5614 	DATA 	Keypress: 1
+634.5695 	EXP 	unnamed TextStim: text = 'trial 27 / 144'
+636.5792 	EXP 	Sound  started
+654.3773 	DATA 	Keypress: 3
+654.3854 	EXP 	unnamed TextStim: text = 'trial 28 / 144'
+656.3952 	EXP 	Sound  started
+673.3262 	DATA 	Keypress: 2
+673.3344 	EXP 	unnamed TextStim: text = 'trial 29 / 144'
+675.3441 	EXP 	Sound  started
+692.4335 	DATA 	Keypress: 3
+692.4417 	EXP 	unnamed TextStim: text = 'trial 30 / 144'
+694.4514 	EXP 	Sound  started
+712.0828 	DATA 	Keypress: 1
+712.0909 	EXP 	unnamed TextStim: text = 'trial 31 / 144'
+714.1006 	EXP 	Sound  started
+731.0483 	DATA 	Keypress: 3
+731.0565 	EXP 	unnamed TextStim: text = 'trial 32 / 144'
+733.0662 	EXP 	Sound  started
+750.3309 	DATA 	Keypress: 2
+750.3473 	EXP 	unnamed TextStim: text = 'trial 33 / 144'
+752.3569 	EXP 	Sound  started
+770.8970 	DATA 	Keypress: 2
+770.9052 	EXP 	unnamed TextStim: text = 'trial 34 / 144'
+772.9148 	EXP 	Sound  started
+790.0209 	DATA 	Keypress: 2
+790.0291 	EXP 	unnamed TextStim: text = 'trial 35 / 144'
+792.0389 	EXP 	Sound  started
+809.8704 	DATA 	Keypress: 3
+809.8785 	EXP 	unnamed TextStim: text = 'trial 36 / 144'
+811.8881 	EXP 	Sound  started
+829.4111 	DATA 	Keypress: 1
+829.4193 	EXP 	unnamed TextStim: text = 'trial 37 / 144'
+831.4290 	EXP 	Sound  started
+849.0020 	DATA 	Keypress: 2
+849.0102 	EXP 	unnamed TextStim: text = 'trial 38 / 144'
+851.0198 	EXP 	Sound  started
+869.0680 	DATA 	Keypress: 3
+869.0762 	EXP 	unnamed TextStim: text = 'trial 39 / 144'
+871.0855 	EXP 	Sound  started
+888.1253 	DATA 	Keypress: 2
+888.1335 	EXP 	unnamed TextStim: text = 'trial 40 / 144'
+890.1427 	EXP 	Sound  started
+907.6495 	DATA 	Keypress: 3
+907.6577 	EXP 	unnamed TextStim: text = 'trial 41 / 144'
+909.6666 	EXP 	Sound  started
+926.3067 	DATA 	Keypress: 3
+926.3148 	EXP 	unnamed TextStim: text = 'trial 42 / 144'
+928.3244 	EXP 	Sound  started
+946.2227 	DATA 	Keypress: 3
+946.2308 	EXP 	unnamed TextStim: text = 'trial 43 / 144'
+948.2405 	EXP 	Sound  started
+965.4550 	DATA 	Keypress: 2
+965.4633 	EXP 	unnamed TextStim: text = 'trial 44 / 144'
+967.4729 	EXP 	Sound  started
+983.9872 	DATA 	Keypress: 2
+983.9953 	EXP 	unnamed TextStim: text = 'trial 45 / 144'
+986.0043 	EXP 	Sound  started
+1003.1029 	DATA 	Keypress: 3
+1003.1110 	EXP 	unnamed TextStim: text = 'trial 46 / 144'
+1005.1207 	EXP 	Sound  started
+1022.4686 	DATA 	Keypress: 3
+1022.4769 	EXP 	unnamed TextStim: text = 'trial 47 / 144'
+1024.4864 	EXP 	Sound  started
+1041.7178 	DATA 	Keypress: 3
+1041.7259 	EXP 	unnamed TextStim: text = 'trial 48 / 144'
+1043.7356 	EXP 	Sound  started
+1060.0915 	DATA 	Keypress: 2
+1147.2477 	DATA 	Keypress: space
+1147.2585 	EXP 	unnamed TextStim: text = 'trial 49 / 144'
+1149.2675 	EXP 	Sound  started
+1166.2253 	DATA 	Keypress: 1
+1166.2320 	EXP 	unnamed TextStim: text = 'trial 50 / 144'
+1168.2417 	EXP 	Sound  started
+1186.1815 	DATA 	Keypress: 1
+1186.1897 	EXP 	unnamed TextStim: text = 'trial 51 / 144'
+1188.1994 	EXP 	Sound  started
+1205.2554 	DATA 	Keypress: 3
+1205.2636 	EXP 	unnamed TextStim: text = 'trial 52 / 144'
+1207.2733 	EXP 	Sound  started
+1224.1796 	DATA 	Keypress: 3
+1224.1959 	EXP 	unnamed TextStim: text = 'trial 53 / 144'
+1226.2057 	EXP 	Sound  started
+1243.0617 	DATA 	Keypress: 3
+1243.0699 	EXP 	unnamed TextStim: text = 'trial 54 / 144'
+1245.0795 	EXP 	Sound  started
+1261.3604 	DATA 	Keypress: 2
+1261.3686 	EXP 	unnamed TextStim: text = 'trial 55 / 144'
+1263.3782 	EXP 	Sound  started
+1279.8591 	DATA 	Keypress: 2
+1279.8673 	EXP 	unnamed TextStim: text = 'trial 56 / 144'
+1281.8770 	EXP 	Sound  started
+1299.0748 	DATA 	Keypress: 3
+1299.0830 	EXP 	unnamed TextStim: text = 'trial 57 / 144'
+1301.0927 	EXP 	Sound  started
+1318.2239 	DATA 	Keypress: 3
+1318.2320 	EXP 	unnamed TextStim: text = 'trial 58 / 144'
+1320.2417 	EXP 	Sound  started
+1337.8147 	DATA 	Keypress: 3
+1337.8229 	EXP 	unnamed TextStim: text = 'trial 59 / 144'
+1339.8326 	EXP 	Sound  started
+1355.7969 	DATA 	Keypress: 2
+1357.4306 	DATA 	Keypress: 2
+1357.4387 	EXP 	unnamed TextStim: text = 'trial 60 / 144'
+1359.4485 	EXP 	Sound  started
+1375.6543 	DATA 	Keypress: 2
+1375.6624 	EXP 	unnamed TextStim: text = 'trial 61 / 144'
+1377.6720 	EXP 	Sound  started
+1394.1447 	DATA 	Keypress: 2
+1394.1529 	EXP 	unnamed TextStim: text = 'trial 62 / 144'
+1396.1625 	EXP 	Sound  started
+1413.1103 	DATA 	Keypress: 3
+1413.1188 	EXP 	unnamed TextStim: text = 'trial 63 / 144'
+1415.1280 	EXP 	Sound  started
+1432.5676 	DATA 	Keypress: 3
+1432.5759 	EXP 	unnamed TextStim: text = 'trial 64 / 144'
+1434.5855 	EXP 	Sound  started
+1451.6500 	DATA 	Keypress: 3
+1451.6582 	EXP 	unnamed TextStim: text = 'trial 65 / 144'
+1453.6678 	EXP 	Sound  started
+1471.6160 	DATA 	Keypress: 3
+1471.6242 	EXP 	unnamed TextStim: text = 'trial 66 / 144'
+1473.6337 	EXP 	Sound  started
+1490.4733 	DATA 	Keypress: 3
+1490.4815 	EXP 	unnamed TextStim: text = 'trial 67 / 144'
+1492.4912 	EXP 	Sound  started
+1509.0888 	DATA 	Keypress: 3
+1509.0970 	EXP 	unnamed TextStim: text = 'trial 68 / 144'
+1511.1067 	EXP 	Sound  started
+1529.1549 	DATA 	Keypress: 3
+1529.1631 	EXP 	unnamed TextStim: text = 'trial 69 / 144'
+1531.1728 	EXP 	Sound  started
+1548.5790 	DATA 	Keypress: 1
+1548.5872 	EXP 	unnamed TextStim: text = 'trial 70 / 144'
+1550.5968 	EXP 	Sound  started
+1570.7540 	DATA 	Keypress: 1
+1570.7623 	EXP 	unnamed TextStim: text = 'trial 71 / 144'
+1572.7719 	EXP 	Sound  started
+1591.2871 	DATA 	Keypress: 2
+1591.2953 	EXP 	unnamed TextStim: text = 'trial 72 / 144'
+1593.3049 	EXP 	Sound  started
+1611.5281 	DATA 	Keypress: 3
+1674.0122 	DATA 	Keypress: space
+1674.0190 	EXP 	unnamed TextStim: text = 'trial 73 / 144'
+1676.0288 	EXP 	Sound  started
+1692.6094 	DATA 	Keypress: 3
+1692.6175 	EXP 	unnamed TextStim: text = 'trial 74 / 144'
+1694.6268 	EXP 	Sound  started
+1711.2164 	DATA 	Keypress: 3
+1711.2246 	EXP 	unnamed TextStim: text = 'trial 75 / 144'
+1713.2343 	EXP 	Sound  started
+1730.2238 	DATA 	Keypress: 3
+1730.2319 	EXP 	unnamed TextStim: text = 'trial 76 / 144'
+1732.2414 	EXP 	Sound  started
+1748.3557 	DATA 	Keypress: 2
+1748.3639 	EXP 	unnamed TextStim: text = 'trial 77 / 144'
+1750.3736 	EXP 	Sound  started
+1767.0549 	DATA 	Keypress: 2
+1767.0711 	EXP 	unnamed TextStim: text = 'trial 78 / 144'
+1769.0808 	EXP 	Sound  started
+1785.9201 	DATA 	Keypress: 3
+1785.9283 	EXP 	unnamed TextStim: text = 'trial 79 / 144'
+1787.9380 	EXP 	Sound  started
+1804.2272 	DATA 	Keypress: 2
+1804.2354 	EXP 	unnamed TextStim: text = 'trial 80 / 144'
+1806.2450 	EXP 	Sound  started
+1822.8344 	DATA 	Keypress: 2
+1822.8425 	EXP 	unnamed TextStim: text = 'trial 81 / 144'
+1824.8522 	EXP 	Sound  started
+1842.4169 	DATA 	Keypress: 1
+1842.4250 	EXP 	unnamed TextStim: text = 'trial 82 / 144'
+1844.4347 	EXP 	Sound  started
+1861.3991 	DATA 	Keypress: 3
+1861.4073 	EXP 	unnamed TextStim: text = 'trial 83 / 144'
+1863.4169 	EXP 	Sound  started
+1880.6565 	DATA 	Keypress: 2
+1880.6647 	EXP 	unnamed TextStim: text = 'trial 84 / 144'
+1882.6743 	EXP 	Sound  started
+1898.8801 	DATA 	Keypress: 2
+1898.8886 	EXP 	unnamed TextStim: text = 'trial 85 / 144'
+1900.8980 	EXP 	Sound  started
+1917.3790 	DATA 	Keypress: 1
+1917.3872 	EXP 	unnamed TextStim: text = 'trial 86 / 144'
+1919.3969 	EXP 	Sound  started
+1935.4945 	DATA 	Keypress: 2
+1936.1446 	DATA 	Keypress: 2
+1936.1527 	EXP 	unnamed TextStim: text = 'trial 87 / 144'
+1938.1625 	EXP 	Sound  started
+1955.3019 	DATA 	Keypress: 2
+1955.3101 	EXP 	unnamed TextStim: text = 'trial 88 / 144'
+1957.3196 	EXP 	Sound  started
+1974.9678 	DATA 	Keypress: 2
+1974.9760 	EXP 	unnamed TextStim: text = 'trial 89 / 144'
+1976.9857 	EXP 	Sound  started
+1992.7998 	DATA 	Keypress: 3
+1993.9250 	DATA 	Keypress: 3
+1993.9332 	EXP 	unnamed TextStim: text = 'trial 90 / 144'
+1995.9423 	EXP 	Sound  started
+2011.7654 	DATA 	Keypress: 3
+2013.6243 	DATA 	Keypress: 3
+2013.6325 	EXP 	unnamed TextStim: text = 'trial 91 / 144'
+2015.6422 	EXP 	Sound  started
+2031.7979 	DATA 	Keypress: 3
+2031.8062 	EXP 	unnamed TextStim: text = 'trial 92 / 144'
+2033.8158 	EXP 	Sound  started
+2050.4718 	DATA 	Keypress: 3
+2050.4799 	EXP 	unnamed TextStim: text = 'trial 93 / 144'
+2052.4896 	EXP 	Sound  started
+2069.2456 	DATA 	Keypress: 1
+2069.2539 	EXP 	unnamed TextStim: text = 'trial 94 / 144'
+2071.2635 	EXP 	Sound  started
+2088.4697 	DATA 	Keypress: 3
+2088.4780 	EXP 	unnamed TextStim: text = 'trial 95 / 144'
+2090.4876 	EXP 	Sound  started
+2107.8187 	DATA 	Keypress: 2
+2107.8269 	EXP 	unnamed TextStim: text = 'trial 96 / 144'
+2109.8359 	EXP 	Sound  started
+2125.4257 	DATA 	Keypress: 2
+2126.5676 	DATA 	Keypress: 2
+2216.4724 	DATA 	Keypress: space
+2216.4773 	EXP 	unnamed TextStim: text = 'trial 97 / 144'
+2218.4870 	EXP 	Sound  started
+2228.6917 	DATA 	Keypress: 4
+2229.2238 	DATA 	Keypress: 4
+2229.8824 	DATA 	Keypress: 4
+2230.5743 	DATA 	Keypress: 4
+2231.2329 	DATA 	Keypress: 4
+2231.8998 	DATA 	Keypress: 4
+2232.5667 	DATA 	Keypress: 4
+2233.2920 	DATA 	Keypress: 4
+2235.4760 	DATA 	Keypress: 2
+2235.4842 	EXP 	unnamed TextStim: text = 'trial 98 / 144'
+2237.4939 	EXP 	Sound  started
+2248.2144 	DATA 	Keypress: 4
+2248.8563 	DATA 	Keypress: 4
+2249.5065 	DATA 	Keypress: 4
+2250.1818 	DATA 	Keypress: 4
+2250.8404 	DATA 	Keypress: 4
+2251.4990 	DATA 	Keypress: 4
+2252.1659 	DATA 	Keypress: 4
+2254.1832 	DATA 	Keypress: 1
+2254.1914 	EXP 	unnamed TextStim: text = 'trial 99 / 144'
+2256.2009 	EXP 	Sound  started
+2263.7370 	DATA 	Keypress: 4
+2264.3622 	DATA 	Keypress: 4
+2266.3381 	DATA 	Keypress: 4
+2266.9132 	DATA 	Keypress: 4
+2267.5551 	DATA 	Keypress: 4
+2268.2387 	DATA 	Keypress: 4
+2268.8973 	DATA 	Keypress: 4
+2269.6143 	DATA 	Keypress: 4
+2270.2729 	DATA 	Keypress: 4
+2270.9315 	DATA 	Keypress: 4
+2272.6319 	DATA 	Keypress: 3
+2272.6401 	EXP 	unnamed TextStim: text = 'trial 100 / 144'
+2274.6497 	EXP 	Sound  started
+2284.6701 	DATA 	Keypress: 4
+2285.3287 	DATA 	Keypress: 4
+2285.9457 	DATA 	Keypress: 4
+2286.6042 	DATA 	Keypress: 4
+2287.2628 	DATA 	Keypress: 4
+2287.8964 	DATA 	Keypress: 4
+2288.5466 	DATA 	Keypress: 4
+2289.2053 	DATA 	Keypress: 4
+2289.8555 	DATA 	Keypress: 4
+2291.0891 	DATA 	Keypress: 2
+2291.0973 	EXP 	unnamed TextStim: text = 'trial 101 / 144'
+2293.1069 	EXP 	Sound  started
+2300.6262 	DATA 	Keypress: 4
+2303.1106 	DATA 	Keypress: 4
+2303.8608 	DATA 	Keypress: 4
+2304.6444 	DATA 	Keypress: 4
+2305.3364 	DATA 	Keypress: 4
+2306.0283 	DATA 	Keypress: 4
+2306.7703 	DATA 	Keypress: 4
+2307.4956 	DATA 	Keypress: 4
+2309.6045 	DATA 	Keypress: 1
+2309.6127 	EXP 	unnamed TextStim: text = 'trial 102 / 144'
+2311.6224 	EXP 	Sound  started
+2319.1583 	DATA 	Keypress: 4
+2319.8669 	DATA 	Keypress: 4
+2321.6343 	DATA 	Keypress: 4
+2322.3179 	DATA 	Keypress: 4
+2322.9851 	DATA 	Keypress: 4
+2323.6768 	DATA 	Keypress: 4
+2324.3604 	DATA 	Keypress: 4
+2325.0523 	DATA 	Keypress: 4
+2325.6942 	DATA 	Keypress: 4
+2326.3612 	DATA 	Keypress: 4
+2327.6533 	DATA 	Keypress: 2
+2329.3121 	DATA 	Keypress: 2
+2329.3203 	EXP 	unnamed TextStim: text = 'trial 103 / 144'
+2331.3300 	EXP 	Sound  started
+2341.3253 	DATA 	Keypress: 4
+2342.0505 	DATA 	Keypress: 4
+2342.7257 	DATA 	Keypress: 4
+2343.4260 	DATA 	Keypress: 4
+2344.1346 	DATA 	Keypress: 4
+2344.8516 	DATA 	Keypress: 4
+2345.5435 	DATA 	Keypress: 4
+2346.2188 	DATA 	Keypress: 4
+2349.4365 	DATA 	Keypress: 3
+2349.4447 	EXP 	unnamed TextStim: text = 'trial 104 / 144'
+2351.4543 	EXP 	Sound  started
+2362.1249 	DATA 	Keypress: 4
+2362.7584 	DATA 	Keypress: 4
+2363.4337 	DATA 	Keypress: 4
+2364.1006 	DATA 	Keypress: 4
+2364.8176 	DATA 	Keypress: 4
+2365.4595 	DATA 	Keypress: 4
+2366.1347 	DATA 	Keypress: 4
+2366.8100 	DATA 	Keypress: 4
+2368.5358 	DATA 	Keypress: 1
+2368.5520 	EXP 	unnamed TextStim: text = 'trial 105 / 144'
+2370.5617 	EXP 	Sound  started
+2380.6403 	DATA 	Keypress: 4
+2381.2989 	DATA 	Keypress: 4
+2381.9575 	DATA 	Keypress: 4
+2382.6411 	DATA 	Keypress: 4
+2383.3080 	DATA 	Keypress: 4
+2383.9916 	DATA 	Keypress: 4
+2384.6668 	DATA 	Keypress: 4
+2385.3588 	DATA 	Keypress: 4
+2388.3764 	DATA 	Keypress: 3
+2388.3846 	EXP 	unnamed TextStim: text = 'trial 106 / 144'
+2390.3942 	EXP 	Sound  started
+2401.4483 	DATA 	Keypress: 4
+2402.1652 	DATA 	Keypress: 4
+2402.8488 	DATA 	Keypress: 4
+2403.4991 	DATA 	Keypress: 4
+2404.1826 	DATA 	Keypress: 4
+2404.8413 	DATA 	Keypress: 4
+2405.5082 	DATA 	Keypress: 4
+2407.0336 	DATA 	Keypress: 2
+2407.0418 	EXP 	unnamed TextStim: text = 'trial 107 / 144'
+2409.0515 	EXP 	Sound  started
+2419.7971 	DATA 	Keypress: 4
+2420.4389 	DATA 	Keypress: 4
+2421.1226 	DATA 	Keypress: 4
+2421.8145 	DATA 	Keypress: 4
+2422.4564 	DATA 	Keypress: 4
+2423.1068 	DATA 	Keypress: 4
+2423.7402 	DATA 	Keypress: 4
+2424.3988 	DATA 	Keypress: 4
+2425.7492 	DATA 	Keypress: 1
+2425.7573 	EXP 	unnamed TextStim: text = 'trial 108 / 144'
+2427.7671 	EXP 	Sound  started
+2438.5794 	DATA 	Keypress: 4
+2439.2629 	DATA 	Keypress: 4
+2439.9215 	DATA 	Keypress: 4
+2440.6134 	DATA 	Keypress: 4
+2441.3053 	DATA 	Keypress: 4
+2441.9639 	DATA 	Keypress: 4
+2442.6141 	DATA 	Keypress: 4
+2444.3730 	DATA 	Keypress: 2
+2444.3812 	EXP 	unnamed TextStim: text = 'trial 109 / 144'
+2446.3909 	EXP 	Sound  started
+2456.4278 	DATA 	Keypress: 4
+2457.0364 	DATA 	Keypress: 4
+2457.8033 	DATA 	Keypress: 4
+2458.5036 	DATA 	Keypress: 4
+2459.2039 	DATA 	Keypress: 4
+2459.9542 	DATA 	Keypress: 4
+2460.7128 	DATA 	Keypress: 4
+2461.4547 	DATA 	Keypress: 4
+2462.9885 	DATA 	Keypress: 2
+2462.9967 	EXP 	unnamed TextStim: text = 'trial 110 / 144'
+2465.0064 	EXP 	Sound  started
+2476.3021 	DATA 	Keypress: 4
+2476.9190 	DATA 	Keypress: 4
+2477.5276 	DATA 	Keypress: 4
+2478.1612 	DATA 	Keypress: 4
+2478.8198 	DATA 	Keypress: 4
+2479.4284 	DATA 	Keypress: 4
+2480.0619 	DATA 	Keypress: 4
+2481.5874 	DATA 	Keypress: 2
+2481.5955 	EXP 	unnamed TextStim: text = 'trial 111 / 144'
+2483.6053 	EXP 	Sound  started
+2494.1673 	DATA 	Keypress: 4
+2494.8092 	DATA 	Keypress: 4
+2495.4345 	DATA 	Keypress: 4
+2496.0931 	DATA 	Keypress: 4
+2496.7684 	DATA 	Keypress: 4
+2497.4186 	DATA 	Keypress: 4
+2498.0773 	DATA 	Keypress: 4
+2498.7358 	DATA 	Keypress: 4
+2500.3362 	DATA 	Keypress: 2
+2500.3444 	EXP 	unnamed TextStim: text = 'trial 112 / 144'
+2502.3537 	EXP 	Sound  started
+2512.3660 	DATA 	Keypress: 4
+2513.0996 	DATA 	Keypress: 4
+2513.7332 	DATA 	Keypress: 4
+2514.5002 	DATA 	Keypress: 4
+2515.2171 	DATA 	Keypress: 4
+2515.9340 	DATA 	Keypress: 4
+2516.6093 	DATA 	Keypress: 4
+2517.2929 	DATA 	Keypress: 4
+2518.9853 	DATA 	Keypress: 1
+2519.0016 	EXP 	unnamed TextStim: text = 'trial 113 / 144'
+2521.0113 	EXP 	Sound  started
+2532.1486 	DATA 	Keypress: 4
+2532.8906 	DATA 	Keypress: 4
+2533.5658 	DATA 	Keypress: 4
+2534.2828 	DATA 	Keypress: 4
+2534.9664 	DATA 	Keypress: 4
+2535.5833 	DATA 	Keypress: 4
+2537.6006 	DATA 	Keypress: 2
+2537.6088 	EXP 	unnamed TextStim: text = 'trial 114 / 144'
+2539.6176 	EXP 	Sound  started
+2549.7138 	DATA 	Keypress: 4
+2550.3389 	DATA 	Keypress: 4
+2550.9226 	DATA 	Keypress: 4
+2551.5477 	DATA 	Keypress: 4
+2552.1646 	DATA 	Keypress: 4
+2552.8152 	DATA 	Keypress: 4
+2553.4568 	DATA 	Keypress: 4
+2554.1154 	DATA 	Keypress: 4
+2554.7489 	DATA 	Keypress: 4
+2556.3077 	DATA 	Keypress: 2
+2556.3159 	EXP 	unnamed TextStim: text = 'trial 115 / 144'
+2558.3250 	EXP 	Sound  started
+2568.9962 	DATA 	Keypress: 4
+2569.6547 	DATA 	Keypress: 4
+2570.3216 	DATA 	Keypress: 4
+2570.9887 	DATA 	Keypress: 4
+2571.6638 	DATA 	Keypress: 4
+2572.3308 	DATA 	Keypress: 4
+2573.0060 	DATA 	Keypress: 4
+2573.7146 	DATA 	Keypress: 4
+2575.6902 	DATA 	Keypress: 3
+2575.6984 	EXP 	unnamed TextStim: text = 'trial 116 / 144'
+2577.7081 	EXP 	Sound  started
+2589.8375 	DATA 	Keypress: 4
+2590.4878 	DATA 	Keypress: 4
+2591.1380 	DATA 	Keypress: 4
+2591.7966 	DATA 	Keypress: 4
+2592.4969 	DATA 	Keypress: 4
+2594.4141 	DATA 	Keypress: 3
+2594.4223 	EXP 	unnamed TextStim: text = 'trial 117 / 144'
+2596.4320 	EXP 	Sound  started
+2606.4439 	DATA 	Keypress: 4
+2607.1191 	DATA 	Keypress: 4
+2607.7444 	DATA 	Keypress: 4
+2608.4197 	DATA 	Keypress: 4
+2609.1283 	DATA 	Keypress: 4
+2609.8536 	DATA 	Keypress: 4
+2610.5621 	DATA 	Keypress: 4
+2611.2291 	DATA 	Keypress: 4
+2613.8049 	DATA 	Keypress: 1
+2613.8131 	EXP 	unnamed TextStim: text = 'trial 118 / 144'
+2615.8227 	EXP 	Sound  started
+2625.8513 	DATA 	Keypress: 4
+2626.5100 	DATA 	Keypress: 4
+2627.1601 	DATA 	Keypress: 4
+2627.8606 	DATA 	Keypress: 4
+2628.5857 	DATA 	Keypress: 4
+2629.2443 	DATA 	Keypress: 4
+2629.8945 	DATA 	Keypress: 4
+2630.5781 	DATA 	Keypress: 4
+2632.4453 	DATA 	Keypress: 2
+2632.4535 	EXP 	unnamed TextStim: text = 'trial 119 / 144'
+2634.4632 	EXP 	Sound  started
+2645.2504 	DATA 	Keypress: 4
+2645.8756 	DATA 	Keypress: 4
+2646.4926 	DATA 	Keypress: 4
+2647.1428 	DATA 	Keypress: 4
+2647.8347 	DATA 	Keypress: 4
+2648.4933 	DATA 	Keypress: 4
+2649.1436 	DATA 	Keypress: 4
+2650.8942 	DATA 	Keypress: 2
+2650.9023 	EXP 	unnamed TextStim: text = 'trial 120 / 144'
+2652.9120 	EXP 	Sound  started
+2662.9155 	DATA 	Keypress: 4
+2663.6242 	DATA 	Keypress: 4
+2664.2577 	DATA 	Keypress: 4
+2664.9163 	DATA 	Keypress: 4
+2665.5666 	DATA 	Keypress: 4
+2666.2251 	DATA 	Keypress: 4
+2666.9087 	DATA 	Keypress: 4
+2667.5840 	DATA 	Keypress: 4
+2670.2265 	DATA 	Keypress: 3
+2743.3491 	DATA 	Keypress: space
+2743.3550 	EXP 	unnamed TextStim: text = 'trial 121 / 144'
+2745.3646 	EXP 	Sound  started
+2755.3846 	DATA 	Keypress: 4
+2756.0680 	DATA 	Keypress: 4
+2756.6851 	DATA 	Keypress: 4
+2757.3770 	DATA 	Keypress: 4
+2758.0105 	DATA 	Keypress: 4
+2758.6775 	DATA 	Keypress: 4
+2759.3111 	DATA 	Keypress: 4
+2759.9947 	DATA 	Keypress: 4
+2760.6866 	DATA 	Keypress: 4
+2762.4704 	DATA 	Keypress: 1
+2762.4786 	EXP 	unnamed TextStim: text = 'trial 122 / 144'
+2764.4883 	EXP 	Sound  started
+2775.1672 	DATA 	Keypress: 4
+2775.8257 	DATA 	Keypress: 4
+2776.4760 	DATA 	Keypress: 4
+2777.1012 	DATA 	Keypress: 4
+2777.7515 	DATA 	Keypress: 4
+2778.3686 	DATA 	Keypress: 4
+2779.0019 	DATA 	Keypress: 4
+2779.6272 	DATA 	Keypress: 4
+2781.5277 	DATA 	Keypress: 1
+2781.5359 	EXP 	unnamed TextStim: text = 'trial 123 / 144'
+2783.5456 	EXP 	Sound  started
+2794.7580 	DATA 	Keypress: 4
+2795.3916 	DATA 	Keypress: 4
+2796.0503 	DATA 	Keypress: 4
+2796.7088 	DATA 	Keypress: 4
+2797.3340 	DATA 	Keypress: 4
+2797.9592 	DATA 	Keypress: 4
+2798.6929 	DATA 	Keypress: 4
+2800.0601 	DATA 	Keypress: 3
+2800.0681 	EXP 	unnamed TextStim: text = 'trial 124 / 144'
+2802.0777 	EXP 	Sound  started
+2812.1313 	DATA 	Keypress: 4
+2812.8149 	DATA 	Keypress: 4
+2813.5069 	DATA 	Keypress: 4
+2814.1988 	DATA 	Keypress: 4
+2814.8574 	DATA 	Keypress: 4
+2815.5576 	DATA 	Keypress: 4
+2816.2079 	DATA 	Keypress: 4
+2816.9165 	DATA 	Keypress: 4
+2819.1256 	DATA 	Keypress: 3
+2819.1337 	EXP 	unnamed TextStim: text = 'trial 125 / 144'
+2821.1434 	EXP 	Sound  started
+2831.1553 	DATA 	Keypress: 4
+2831.8222 	DATA 	Keypress: 4
+2832.4308 	DATA 	Keypress: 4
+2833.0560 	DATA 	Keypress: 4
+2833.6730 	DATA 	Keypress: 4
+2834.2982 	DATA 	Keypress: 4
+2834.9067 	DATA 	Keypress: 4
+2835.6321 	DATA 	Keypress: 4
+2838.1579 	DATA 	Keypress: 2
+2838.1660 	EXP 	unnamed TextStim: text = 'trial 126 / 144'
+2840.1758 	EXP 	Sound  started
+2851.6715 	DATA 	Keypress: 4
+2852.2718 	DATA 	Keypress: 4
+2852.9053 	DATA 	Keypress: 4
+2853.5223 	DATA 	Keypress: 4
+2854.1308 	DATA 	Keypress: 4
+2854.8144 	DATA 	Keypress: 4
+2855.4230 	DATA 	Keypress: 4
+2857.2319 	DATA 	Keypress: 1
+2857.2400 	EXP 	unnamed TextStim: text = 'trial 127 / 144'
+2859.2497 	EXP 	Sound  started
+2870.8956 	DATA 	Keypress: 4
+2871.4875 	DATA 	Keypress: 4
+2872.0627 	DATA 	Keypress: 4
+2872.6796 	DATA 	Keypress: 4
+2873.2965 	DATA 	Keypress: 4
+2873.9301 	DATA 	Keypress: 4
+2874.5470 	DATA 	Keypress: 4
+2875.8307 	DATA 	Keypress: 2
+2875.8388 	EXP 	unnamed TextStim: text = 'trial 128 / 144'
+2877.8485 	EXP 	Sound  started
+2887.8438 	DATA 	Keypress: 4
+2888.5274 	DATA 	Keypress: 4
+2889.1609 	DATA 	Keypress: 4
+2889.8529 	DATA 	Keypress: 4
+2890.5532 	DATA 	Keypress: 4
+2891.2451 	DATA 	Keypress: 4
+2891.9120 	DATA 	Keypress: 4
+2892.5792 	DATA 	Keypress: 4
+2894.2878 	DATA 	Keypress: 3
+2894.2959 	EXP 	unnamed TextStim: text = 'trial 129 / 144'
+2896.3057 	EXP 	Sound  started
+2907.2762 	DATA 	Keypress: 4
+2907.9347 	DATA 	Keypress: 4
+2908.5683 	DATA 	Keypress: 4
+2909.2437 	DATA 	Keypress: 4
+2909.9355 	DATA 	Keypress: 4
+2910.5691 	DATA 	Keypress: 4
+2911.2443 	DATA 	Keypress: 4
+2912.9282 	DATA 	Keypress: 2
+2912.9364 	EXP 	unnamed TextStim: text = 'trial 130 / 144'
+2914.9462 	EXP 	Sound  started
+2925.0831 	DATA 	Keypress: 4
+2925.6833 	DATA 	Keypress: 4
+2926.3002 	DATA 	Keypress: 4
+2926.9088 	DATA 	Keypress: 4
+2927.5757 	DATA 	Keypress: 4
+2928.1677 	DATA 	Keypress: 4
+2928.8095 	DATA 	Keypress: 4
+2929.4181 	DATA 	Keypress: 4
+2930.0517 	DATA 	Keypress: 4
+2931.4270 	DATA 	Keypress: 2
+2931.4352 	EXP 	unnamed TextStim: text = 'trial 131 / 144'
+2933.4449 	EXP 	Sound  started
+2943.4735 	DATA 	Keypress: 4
+2944.1738 	DATA 	Keypress: 4
+2944.7991 	DATA 	Keypress: 4
+2945.4576 	DATA 	Keypress: 4
+2946.0828 	DATA 	Keypress: 4
+2946.7081 	DATA 	Keypress: 4
+2947.3083 	DATA 	Keypress: 4
+2947.9335 	DATA 	Keypress: 4
+2948.5338 	DATA 	Keypress: 4
+2950.1011 	DATA 	Keypress: 1
+2950.1090 	EXP 	unnamed TextStim: text = 'trial 132 / 144'
+2952.1187 	EXP 	Sound  started
+2962.1140 	DATA 	Keypress: 4
+2962.8393 	DATA 	Keypress: 4
+2963.4562 	DATA 	Keypress: 4
+2964.1231 	DATA 	Keypress: 4
+2964.7817 	DATA 	Keypress: 4
+2965.3986 	DATA 	Keypress: 4
+2965.9821 	DATA 	Keypress: 4
+2966.6408 	DATA 	Keypress: 4
+2968.5746 	DATA 	Keypress: 3
+2968.5828 	EXP 	unnamed TextStim: text = 'trial 133 / 144'
+2970.5925 	EXP 	Sound  started
+2980.6294 	DATA 	Keypress: 4
+2981.2797 	DATA 	Keypress: 4
+2981.8799 	DATA 	Keypress: 4
+2982.4885 	DATA 	Keypress: 4
+2983.0887 	DATA 	Keypress: 4
+2983.7306 	DATA 	Keypress: 4
+2984.3142 	DATA 	Keypress: 4
+2984.9728 	DATA 	Keypress: 4
+2985.5897 	DATA 	Keypress: 4
+2988.2906 	DATA 	Keypress: 2
+2988.2987 	EXP 	unnamed TextStim: text = 'trial 134 / 144'
+2990.3084 	EXP 	Sound  started
+3000.3036 	DATA 	Keypress: 4
+3001.0039 	DATA 	Keypress: 4
+3001.6125 	DATA 	Keypress: 4
+3002.2627 	DATA 	Keypress: 4
+3002.8463 	DATA 	Keypress: 4
+3003.4632 	DATA 	Keypress: 4
+3004.0801 	DATA 	Keypress: 4
+3004.7304 	DATA 	Keypress: 4
+3005.3472 	DATA 	Keypress: 4
+3006.9727 	DATA 	Keypress: 3
+3006.9809 	EXP 	unnamed TextStim: text = 'trial 135 / 144'
+3008.9906 	EXP 	Sound  started
+3019.7028 	DATA 	Keypress: 4
+3020.3448 	DATA 	Keypress: 4
+3020.9866 	DATA 	Keypress: 4
+3021.5703 	DATA 	Keypress: 4
+3022.2038 	DATA 	Keypress: 4
+3022.8123 	DATA 	Keypress: 4
+3023.4542 	DATA 	Keypress: 4
+3026.4219 	DATA 	Keypress: 1
+3026.4301 	EXP 	unnamed TextStim: text = 'trial 136 / 144'
+3028.4397 	EXP 	Sound  started
+3040.1774 	DATA 	Keypress: 4
+3040.8942 	DATA 	Keypress: 4
+3041.5029 	DATA 	Keypress: 4
+3042.1198 	DATA 	Keypress: 4
+3042.7783 	DATA 	Keypress: 4
+3043.4286 	DATA 	Keypress: 4
+3045.1208 	DATA 	Keypress: 2
+3045.1289 	EXP 	unnamed TextStim: text = 'trial 137 / 144'
+3047.1386 	EXP 	Sound  started
+3057.1422 	DATA 	Keypress: 4
+3057.7925 	DATA 	Keypress: 4
+3058.4677 	DATA 	Keypress: 4
+3059.1430 	DATA 	Keypress: 4
+3059.8432 	DATA 	Keypress: 4
+3060.5018 	DATA 	Keypress: 4
+3061.1354 	DATA 	Keypress: 4
+3061.7856 	DATA 	Keypress: 4
+3064.1614 	DATA 	Keypress: 2
+3064.1696 	EXP 	unnamed TextStim: text = 'trial 138 / 144'
+3066.1792 	EXP 	Sound  started
+3076.1911 	DATA 	Keypress: 4
+3076.8496 	DATA 	Keypress: 4
+3077.4832 	DATA 	Keypress: 4
+3078.1585 	DATA 	Keypress: 4
+3078.9088 	DATA 	Keypress: 4
+3079.6007 	DATA 	Keypress: 4
+3080.2843 	DATA 	Keypress: 4
+3080.9345 	DATA 	Keypress: 4
+3082.6101 	DATA 	Keypress: 3
+3082.6182 	EXP 	unnamed TextStim: text = 'trial 139 / 144'
+3084.6280 	EXP 	Sound  started
+3094.6232 	DATA 	Keypress: 4
+3095.2902 	DATA 	Keypress: 4
+3095.9654 	DATA 	Keypress: 4
+3096.5990 	DATA 	Keypress: 4
+3097.2826 	DATA 	Keypress: 4
+3097.9162 	DATA 	Keypress: 4
+3098.5664 	DATA 	Keypress: 4
+3099.2167 	DATA 	Keypress: 4
+3101.9426 	DATA 	Keypress: 2
+3101.9507 	EXP 	unnamed TextStim: text = 'trial 140 / 144'
+3103.9604 	EXP 	Sound  started
+3114.2475 	DATA 	Keypress: 4
+3114.9394 	DATA 	Keypress: 4
+3115.5396 	DATA 	Keypress: 4
+3116.1899 	DATA 	Keypress: 4
+3116.7901 	DATA 	Keypress: 4
+3117.3820 	DATA 	Keypress: 4
+3118.0072 	DATA 	Keypress: 4
+3118.6408 	DATA 	Keypress: 4
+3120.2663 	DATA 	Keypress: 3
+3120.2744 	EXP 	unnamed TextStim: text = 'trial 141 / 144'
+3122.2837 	EXP 	Sound  started
+3133.4798 	DATA 	Keypress: 4
+3134.1301 	DATA 	Keypress: 4
+3134.7553 	DATA 	Keypress: 4
+3135.3889 	DATA 	Keypress: 4
+3135.9975 	DATA 	Keypress: 4
+3136.6143 	DATA 	Keypress: 4
+3137.2313 	DATA 	Keypress: 4
+3139.0903 	DATA 	Keypress: 2
+3139.1067 	EXP 	unnamed TextStim: text = 'trial 142 / 144'
+3141.1164 	EXP 	Sound  started
+3151.5785 	DATA 	Keypress: 4
+3152.2454 	DATA 	Keypress: 4
+3152.9123 	DATA 	Keypress: 4
+3153.6126 	DATA 	Keypress: 4
+3154.2795 	DATA 	Keypress: 4
+3154.9881 	DATA 	Keypress: 4
+3155.6717 	DATA 	Keypress: 4
+3156.3553 	DATA 	Keypress: 4
+3157.4723 	DATA 	Keypress: 3
+3157.4804 	EXP 	unnamed TextStim: text = 'trial 143 / 144'
+3159.4901 	EXP 	Sound  started
+3169.5021 	DATA 	Keypress: 4
+3170.1689 	DATA 	Keypress: 4
+3170.8442 	DATA 	Keypress: 4
+3171.4778 	DATA 	Keypress: 4
+3172.1447 	DATA 	Keypress: 4
+3172.7616 	DATA 	Keypress: 4
+3173.4619 	DATA 	Keypress: 4
+3174.0871 	DATA 	Keypress: 4
+3176.1711 	DATA 	Keypress: 2
+3176.1793 	EXP 	unnamed TextStim: text = 'trial 144 / 144'
+3178.1889 	EXP 	Sound  started
+3188.2342 	DATA 	Keypress: 4
+3188.9095 	DATA 	Keypress: 4
+3189.6098 	DATA 	Keypress: 4
+3190.3184 	DATA 	Keypress: 4
+3191.0103 	DATA 	Keypress: 4
+3191.7439 	DATA 	Keypress: 4
+3192.4525 	DATA 	Keypress: 4
+3193.1778 	DATA 	Keypress: 4
+3195.0284 	DATA 	Keypress: 2
+3197.0434 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,7 @@
+subject,trialCode,code,number,name,rhythm,harmony,condition,block,startTime,response,rt,accuracy,trigger
+pilot,0,0,340,Rumba Clave MR2 MH1,medium,high,Delayed,practice,12.187870502471924,2,16.805984020233154,0,235
+pilot,0,0,249,Mariato Clave MR5 MH1,medium,medium,OnTime,practice,31.01176929473877,2,20.407609939575195,1,232
+pilot,0,0,123,LR7 MH2,low,medium,Anticipated,practice,53.43731141090393,3,18.38999891281128,0,233
+pilot,0,0,264,HR3 LH2,high,low,OnTime,practice,73.84514546394348,2,19.198539972305298,1,236
+pilot,0,0,125,LR7 HH3,low,high,Anticipated,practice,95.06154942512512,3,16.87283492088318,0,234
+pilot,0,0,121,LR7 LH4,low,low,Anticipated,practice,113.95221138000488,3,17.864752769470215,0,231
