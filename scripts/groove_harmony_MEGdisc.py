@@ -44,9 +44,6 @@ import numpy as np
 import random as rnd
 import os
 import csv
-# Uncomment only if MEG in Aarhus:
-#from triggers import setParallelData # only if
-#setParallelData(0)
 
 # set the project directory
 os.chdir('C:/Users/au571303/Documents/projects/groove_MEGdisc')
@@ -54,7 +51,11 @@ os.chdir('C:/Users/au571303/Documents/projects/groove_MEGdisc')
 # specify the frame rate of your screen
 frate = 60#120#60 #48 #60 #120 #
 prd = 1000/frate # inter frame interval in ms
+send_triggers = 0
 
+if send_triggers:
+    from triggers import setParallelData # only if
+    setParallelData(0)
 # Load stimulus list and store in a dictionary
 # change the stim file below to use different stimuli 
 stim_file = open('stimuli/stim_list.csv',newline = '') 
@@ -212,7 +213,8 @@ def block_run(s_dict, s_order, b_sounds, breaks=[]):
         nextFlip = win.getFutureFlipTime(clock='ptb')
         startTime = win.getFutureFlipTime(clock=exp_time)
         trigger = int(s_dict['trigger'][midx])
-        #win.callOnFlip(setParallelData, int(trigger)) # only if MEG in Aarhus
+        if send_triggers:
+            win.callOnFlip(setParallelData, int(trigger)) # only if MEG in Aarhus
         win.callOnFlip(print, trigger)
         b_sounds[m].play(when = nextFlip)
         RT.reset()
@@ -247,7 +249,7 @@ def block_run(s_dict, s_order, b_sounds, breaks=[]):
             event.waitKeys(keyList = ['space'])
     return np.array(accuracy)
 
-# Now run the experiment.
+# Now run the experiment.333
 bnames = ['block1']#,'block2','block3']
 #bnames = [bnames[b] for b in block_order] # counterbalance blocks
 for bidx,b in enumerate(bnames):

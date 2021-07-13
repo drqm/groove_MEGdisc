@@ -651,3 +651,108 @@
 593.0921 	DATA 	Keypress: escape
 593.0922 	EXP 	Global key event: shutdown. Calling <function quit_and_save at 0x00000236B3E90510>.
 593.1410 	EXP 	window1: mouseVisible = True
+12.4255 	WARNING 	Monitor specification not found. Creating a temporary one...
+12.4468 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1920, 1080]. Using actual size
+23.1121 	DATA 	Keypress: space
+26.1835 	DATA 	Keypress: space
+26.1944 	EXP 	unnamed TextStim: text = 'trial 1 / 6'
+28.1993 	EXP 	Sound  started
+44.9511 	DATA 	Keypress: 2
+44.9668 	EXP 	unnamed TextStim: text = 'trial 2 / 6'
+46.9713 	EXP 	Sound  started
+63.7095 	DATA 	Keypress: 1
+63.7252 	EXP 	unnamed TextStim: text = 'trial 3 / 6'
+65.7299 	EXP 	Sound  started
+82.4850 	DATA 	Keypress: 2
+82.5017 	EXP 	unnamed TextStim: text = 'trial 4 / 6'
+84.5060 	EXP 	Sound  started
+102.1582 	DATA 	Keypress: 3
+102.1752 	EXP 	unnamed TextStim: text = 'trial 5 / 6'
+104.1800 	EXP 	Sound  started
+120.5674 	DATA 	Keypress: 3
+120.5829 	EXP 	unnamed TextStim: text = 'trial 6 / 6'
+122.5877 	EXP 	Sound  started
+138.7765 	DATA 	Keypress: 2
+142.0632 	DATA 	Keypress: space
+142.0703 	EXP 	unnamed TextStim: text = 'trial 1 / 6'
+144.0752 	EXP 	Sound  started
+162.3644 	DATA 	Keypress: 2
+162.3804 	EXP 	unnamed TextStim: text = 'trial 2 / 6'
+164.3847 	EXP 	Sound  started
+180.6731 	DATA 	Keypress: 1
+180.6889 	EXP 	unnamed TextStim: text = 'trial 3 / 6'
+182.6928 	EXP 	Sound  started
+198.9474 	DATA 	Keypress: 3
+198.9636 	EXP 	unnamed TextStim: text = 'trial 4 / 6'
+200.9685 	EXP 	Sound  started
+216.9077 	DATA 	Keypress: 3
+217.4896 	DATA 	Keypress: 3
+217.5053 	EXP 	unnamed TextStim: text = 'trial 5 / 6'
+219.5105 	EXP 	Sound  started
+238.9351 	DATA 	Mouse: Left button down, pos=(1266,157)
+239.0292 	DATA 	Mouse:  Left button up, pos=(1266,157)
+239.2457 	DATA 	Keypress: 3
+239.2619 	EXP 	unnamed TextStim: text = 'trial 6 / 6'
+241.2674 	EXP 	Sound  started
+258.5544 	DATA 	Keypress: 3
+260.4951 	DATA 	Keypress: space
+260.5022 	EXP 	unnamed TextStim: text = 'trial 1 / 6'
+262.5065 	EXP 	Sound  started
+279.9278 	DATA 	Keypress: 2
+279.9434 	EXP 	unnamed TextStim: text = 'trial 2 / 6'
+281.9482 	EXP 	Sound  started
+298.3871 	DATA 	Keypress: 1
+298.4021 	EXP 	unnamed TextStim: text = 'trial 3 / 6'
+300.4066 	EXP 	Sound  started
+316.8605 	DATA 	Keypress: 3
+316.8765 	EXP 	unnamed TextStim: text = 'trial 4 / 6'
+318.8813 	EXP 	Sound  started
+335.2694 	DATA 	Keypress: 1
+335.2852 	EXP 	unnamed TextStim: text = 'trial 5 / 6'
+336.0873 	DATA 	Keypress: 2
+337.2900 	EXP 	Sound  started
+353.6937 	DATA 	Keypress: 3
+353.7099 	EXP 	unnamed TextStim: text = 'trial 6 / 6'
+355.7148 	EXP 	Sound  started
+372.1692 	DATA 	Keypress: 2
+376.1271 	DATA 	Keypress: space
+376.1346 	EXP 	unnamed TextStim: text = 'trial 1 / 144'
+378.1386 	EXP 	Sound  started
+394.5598 	DATA 	Keypress: 2
+394.5747 	EXP 	unnamed TextStim: text = 'trial 2 / 144'
+396.5793 	EXP 	Sound  started
+413.6509 	DATA 	Keypress: 2
+413.6660 	EXP 	unnamed TextStim: text = 'trial 3 / 144'
+415.6705 	EXP 	Sound  started
+432.0752 	DATA 	Keypress: 2
+432.0909 	EXP 	unnamed TextStim: text = 'trial 4 / 144'
+434.0957 	EXP 	Sound  started
+450.8169 	DATA 	Keypress: 1
+450.8326 	EXP 	unnamed TextStim: text = 'trial 5 / 144'
+452.8367 	EXP 	Sound  started
+469.5915 	DATA 	Keypress: 2
+469.6077 	EXP 	unnamed TextStim: text = 'trial 6 / 144'
+471.6124 	EXP 	Sound  started
+488.7159 	DATA 	Keypress: 1
+488.7335 	EXP 	unnamed TextStim: text = 'trial 7 / 144'
+490.7381 	EXP 	Sound  started
+507.2926 	DATA 	Keypress: 2
+507.3104 	EXP 	unnamed TextStim: text = 'trial 8 / 144'
+509.3151 	EXP 	Sound  started
+527.3480 	DATA 	Keypress: 1
+527.3642 	EXP 	unnamed TextStim: text = 'trial 9 / 144'
+529.3699 	EXP 	Sound  started
+547.8564 	DATA 	Keypress: 3
+547.8742 	EXP 	unnamed TextStim: text = 'trial 10 / 144'
+549.8787 	EXP 	Sound  started
+567.0970 	DATA 	Keypress: 1
+567.1127 	EXP 	unnamed TextStim: text = 'trial 11 / 144'
+569.1178 	EXP 	Sound  started
+586.5387 	DATA 	Keypress: 1
+586.5543 	EXP 	unnamed TextStim: text = 'trial 12 / 144'
+588.5584 	EXP 	Sound  started
+606.5786 	DATA 	Keypress: 1
+606.5955 	EXP 	unnamed TextStim: text = 'trial 13 / 144'
+607.3981 	DATA 	Keypress: escape
+607.3983 	EXP 	Global key event: shutdown. Calling <function quit_and_save at 0x00000222C62C0510>.
+607.4597 	EXP 	window1: mouseVisible = True
