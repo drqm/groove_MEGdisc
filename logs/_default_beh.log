@@ -226,3 +226,18 @@
 583.3654 	DATA 	Keypress: 5
 585.3150 	DATA 	Keypress: space
 585.4293 	EXP 	window1: mouseVisible = True
+35.1053 	WARNING 	Monitor specification not found. Creating a temporary one...
+35.1259 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1920, 1080]. Using actual size
+4.4246 	DATA 	Keypress: space
+4.9357 	DATA 	Keypress: space
+4.9447 	EXP 	unnamed TextStim: text = 'trial 1 / 2'
+6.9496 	EXP 	Sound  started
+14.1704 	DATA 	Keypress: 2
+14.1866 	EXP 	unnamed TextStim: text = 'trial 2 / 2'
+16.1908 	EXP 	Sound  started
+22.3830 	DATA 	Keypress: 3
+29.3109 	DATA 	Keypress: space
+29.3194 	EXP 	unnamed TextStim: text = 'trial 1 / 32'
+30.1206 	DATA 	Keypress: escape
+30.1207 	EXP 	Global key event: shutdown. Calling <function quit_and_save at 0x000001D70FF00510>.
+30.1757 	EXP 	window1: mouseVisible = True
