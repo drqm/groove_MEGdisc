@@ -1,14 +1,1 @@
 subject,trialCode,code,number,name,rhythm,harmony,condition,block,startTime,response,rt,accuracy,trigger
-,0,0,121,LR7 LH4,low,low,Anticipated,practice,13.307528257369995,2,16.54719877243042,0,231
-,0,0,249,Mariato Clave MR5 MH1,medium,medium,OnTime,practice,31.872268199920654,1,16.90597701072693,0,232
-,0,0,125,LR7 HH3,low,high,Anticipated,practice,50.79618525505066,3,17.264835834503174,0,234
-,0,0,123,LR7 MH2,low,medium,Anticipated,practice,70.07885503768921,2,17.02267599105835,0,233
-,0,0,340,Rumba Clave MR2 MH1,medium,high,Delayed,practice,89.11941623687744,3,16.364180088043213,1,235
-,0,0,264,HR3 LH2,high,low,OnTime,practice,107.501549243927,3,16.62292790412903,0,236
-,0,0,121,LR7 LH4,low,low,Anticipated,practice,132.08637309074402,1,17.155972003936768,1,231
-,0,0,249,Mariato Clave MR5 MH1,medium,medium,OnTime,practice,151.25976824760437,1,16.864339113235474,0,232
-,0,0,125,LR7 HH3,low,high,Anticipated,practice,170.14202117919922,2,18.048412084579468,0,234
-,0,0,123,LR7 MH2,low,medium,Anticipated,practice,190.20833015441895,1,16.64762282371521,1,233
-,0,0,340,Rumba Clave MR2 MH1,medium,high,Delayed,practice,208.87374806404114,2,16.389156818389893,0,235
-,0,0,264,HR3 LH2,high,low,OnTime,practice,227.28081607818604,2,17.064512014389038,1,236
-,0,0,121,LR7 LH4,low,low,Anticipated,practice,253.59190011024475,2,16.421414136886597,0,231

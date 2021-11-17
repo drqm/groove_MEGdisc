@@ -49,7 +49,11 @@ import csv
 #setParallelData(0)
 
 # set the project directory
-os.chdir('C:/Users/au571303/Documents/projects/groove_MEGdisc')
+#os.chdir('C:/Users/au571303/Documents/projects/groove_MEGdisc')
+
+my_path = os.path.abspath(os.path.dirname(__file__))
+os.chdir(my_path)
+os.chdir('..')
 
 # specify the frame rate of your screen
 frate = 60 #48 #60 #120 #
@@ -67,7 +71,7 @@ for row in stim_obj:
         blocks[row['condition']][row['block']].setdefault(column, []).append(value)
 
 # load sounds
-sounds = {s: sound.Sound('stimuli/{}.wav'.format(int(s))) 
+sounds = {s: sound.Sound('stimuli/{02}.wav'.format(int(s))) 
             for s in np.unique(blocks['pleasure']['main']['number'] + 
                                 blocks['pleasure']['practice']['number'] +
                                 blocks['wanting_to_move']['practice']['number'] +
@@ -89,7 +93,7 @@ def quit_and_save():
 event.globalKeys.add(key='escape', func=quit_and_save, name='shutdown')
 
 #response keys
-resp_keys = ['1','2','3','4','5']
+resp_keys = ['1','2','3','4','5','escape']
 
 # Collect participant identity and options:
 ID_box = gui.Dlg(title = 'Subject identity')
@@ -112,6 +116,11 @@ if sub_id[2] == '0':
 txt_color = 'white'
 win = visual.Window(fullscr=True, color='black')
 
+# set frame rate
+frate = np.round(win.getActualFrameRate())
+prd = 1000 / frate
+print('screen fps = {} - cycle duration = {}'.format(frate,  prd))
+
 # create all the text to be displayed
 fixation = visual.TextStim(win, text='+', color=txt_color, height=0.2)
 blocks['wanting_to_move']['instr'] =  visual.TextStim(win, 
@@ -127,19 +136,19 @@ blocks['wanting_to_move']['instr'] =  visual.TextStim(win,
 blocks['pleasure']['instr'] =  visual.TextStim(win, 
                 text = 'You will hear various short musical patterns.\n\n'
                 'After each pattern, you will be asked to rate '
-                'HOW MUCH YOU LIKED the musical pattern, as follows:\n\n'
-                'not at all  < 1    2    3    4    5 >  very much\n\n'
+                'HOW MUCH PLEASURE you experienced listening to the musical pattern, as follows:\n\n'
+                'none  < 1    2    3    4    5 >  a lot\n\n'
                 'To answer, please type 1, 2, 3, 4 or 5 on your keyboard.\n\n'
                 'Press spacebar to continue.',
                 color=txt_color, wrapWidth=1.8)
 
 blocks['pleasure']['ratingtxt'] = pleasure_txt = visual.TextStim(win, 
-                text = 'How much did you like it?\n\n'
-                       'not at all  < 1    2    3    4    5 >  very much',
+                text = 'How much pleasure do you experience listening to this musical pattern?\n\n'
+                       'none  < 1    2    3    4    5 >  a lot',
                 color=txt_color, wrapWidth=1.8)
 
 blocks['wanting_to_move']['ratingtxt'] = visual.TextStim(win, 
-                text = 'How much did you want to move?\n\n'
+                text = 'How much does this musical pattern make you want to move?\n\n'
                     'not at all  < 1    2    3    4    5 >  very much',
                 color=txt_color, wrapWidth=1.8)
 

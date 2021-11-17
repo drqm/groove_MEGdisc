@@ -83,7 +83,8 @@ sounds = {s: sound.Sound('stimuli/{:>02d}.wav'.format(int(s)))
 # randomize trial order
 for b in blocks:
     blocks[b]['order'] = np.arange(len(blocks[b]['code']))
-    rnd.shuffle(blocks[b]['order'])
+    if b != 'practice':
+        rnd.shuffle(blocks[b]['order'])
 
 #function and key to quit the experiment and save log file
 def quit_and_save():
@@ -95,7 +96,7 @@ def quit_and_save():
 event.globalKeys.add(key='escape', func=quit_and_save, name='shutdown')
 
 #response keys
-resp_keys = ['1','2','3']
+resp_keys = ['1','2','3','escape']
 
 blocks_msg = ''
 for bidx, b in enumerate(bnames):
@@ -138,14 +139,18 @@ instructions_txt =  visual.TextStim(win,
                 '1 = slower\n'
                 '2 = equal \n'
                 '3 = faster\n\n'
+                'It is very important that during the silent period between the two patterns '
+                'you VIVIDLY IMAGINE the beat in your mind (without moving!).\n'
                 'Press a button to continue.',
-                color=txt_color, wrapWidth=1.8)
+                color=txt_color, wrapWidth=1.8)  
 
 rating_txt = visual.TextStim(win, 
                 text = 'Was the target pattern slower, equal or faster?\n\n'
                             '1 = slower\n'
                             '2 = equal \n'
-                            '3 = faster\n\n',
+                            '3 = faster\n\n\n\n'
+                        'remember to always imagine the beat between patterns\n'
+                          '(without moving!)', 
                 color=txt_color, wrapWidth=1.8)
 
 practice = visual.TextStim(win, 
@@ -256,9 +261,9 @@ def block_run(s_dict, s_order, b_sounds, breaks=[]):
             if len(key) > 0:
                 resp = key[0][0]
                 rt = key[0][1]
-            elif RT.getTime() > 21: #17 after trial onset
-                resp = 0
-                rt = RT.getTime()
+#            elif RT.getTime() > 21: #17 after trial onset
+#                resp = 0
+#                rt = RT.getTime()
 
         cacc = int(int(resp) == int(m) // 100)
         accuracy.append([cacc])
@@ -277,10 +282,11 @@ def block_run(s_dict, s_order, b_sounds, breaks=[]):
 # Now run the experiment
 #bnames = rnd.shuffle(bnames) # counterbalance blocks
 # present instructions
-instructions_txt.draw()
-win.flip()
-event.waitKeys()
+
 for bidx,b in enumerate(bnames):
+    instructions_txt.draw()
+    win.flip()
+    event.waitKeys()
     # run practice trials if requested
     if (practice_switch == 1) and (bidx == 0):
         practice.draw()
