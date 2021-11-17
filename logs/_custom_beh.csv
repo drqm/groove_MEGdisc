@@ -1,3 +1,1 @@
-subject,trialCode,code,number,name,rhythm,harmony,condition,block,startTime,response,rt
-,0,0,449,Mariato Clave MR5 MH1,medium,medium,pleasure,practice,6.962796060011897,2,7.220803099997283
-,0,0,425,LR7 HH3,low,high,pleasure,practice,16.20459766001295,3,6.192224400001578
+subject,trialCode,code,number,name,rhythm,harmony,condition,block,startTime,wantingToMove,pleasure,beatStrength,wrt,prt,brt

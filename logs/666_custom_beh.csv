@@ -1,0 +1,8 @@
+subject,trialCode,code,number,name,rhythm,harmony,condition,block,startTime,wantingToMove,pleasure,beatStrength,wrt,prt,brt
+666,0,0,91,MENTRONOME 1 LH,iso,low,wpb,practice,3.02099819,3,3,5,1.7998519,4.4995311,4.482847
+666,0,0,56,HIGH RHYTHM 2 LH,high,low,pwb,practice,20.81555179,4,2,5,3.0663149,7.4994744,4.0494648
+666,0,0,10,LOW RHYTHM 2 LH,low,low,bpw,practice,42.43024639,2,2,4,4.7660672,3.8329189,2.8996688
+666,0,0,37,MEDIUM 1 LH,medium,low,wbp,practice,60.92977399,3,4,4,3.149904,3.4162027,4.6493591
+666,14,14,61,HIGH RHYTHM 1 HH,high,high,wpb,main,82.55293859,3,2,2,13.6325048,4.8995368,5.6162316
+666,35,3,94,METRONOME 2 MH,iso,medium,bpw,main,113.7096112,2,2,3,5.2499087,12.6319396,11.282675
+666,41,9,33,MEDIUM RHYTHM 1 MH,medium,medium,bwp,main,149.8729238,4,3,4,3.0830806,4.2662764,9.1992285
