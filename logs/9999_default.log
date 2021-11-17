@@ -1,0 +1,109 @@
+45.3539 	WARNING 	Monitor specification not found. Creating a temporary one...
+45.4327 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1366, 768]. Using actual size
+33.2042 	DATA 	Mouse: Left button down, pos=(901,328)
+33.3041 	DATA 	Mouse:  Left button up, pos=(901,328)
+34.5000 	DATA 	Keypress: 1
+37.7000 	DATA 	Keypress: 2
+37.7105 	EXP 	unnamed TextStim: text = 'trial 1 / 6'
+39.7153 	EXP 	Sound  started
+55.7327 	DATA 	Mouse: Left button down, pos=(660,347)
+55.8286 	DATA 	Mouse:  Left button up, pos=(660,347)
+59.6604 	DATA 	Keypress: 1
+59.6769 	EXP 	unnamed TextStim: text = 'trial 2 / 6'
+61.6807 	EXP 	Sound  started
+81.0756 	DATA 	Keypress: 3
+81.0921 	EXP 	unnamed TextStim: text = 'trial 3 / 6'
+83.0958 	EXP 	Sound  started
+102.8241 	DATA 	Keypress: 2
+102.8403 	EXP 	unnamed TextStim: text = 'trial 4 / 6'
+104.8437 	EXP 	Sound  started
+123.9726 	DATA 	Keypress: 2
+123.9888 	EXP 	unnamed TextStim: text = 'trial 5 / 6'
+125.9921 	EXP 	Sound  started
+145.0879 	DATA 	Keypress: 3
+145.1039 	EXP 	unnamed TextStim: text = 'trial 6 / 6'
+147.1087 	EXP 	Sound  started
+165.4361 	DATA 	Keypress: 1
+167.8601 	DATA 	Keypress: space
+167.8697 	EXP 	unnamed TextStim: text = 'trial 1 / 24'
+169.8737 	EXP 	Sound  started
+187.8526 	DATA 	Keypress: 2
+187.8839 	EXP 	unnamed TextStim: text = 'trial 2 / 24'
+189.8882 	EXP 	Sound  started
+208.0663 	DATA 	Keypress: 2
+208.0826 	EXP 	unnamed TextStim: text = 'trial 3 / 24'
+210.0868 	EXP 	Sound  started
+228.0503 	DATA 	Keypress: 3
+228.0984 	EXP 	unnamed TextStim: text = 'trial 4 / 24'
+230.1033 	EXP 	Sound  started
+249.3967 	DATA 	Keypress: 1
+249.4131 	EXP 	unnamed TextStim: text = 'trial 5 / 24'
+251.4155 	EXP 	Sound  started
+264.0491 	DATA 	Mouse: Left button down, pos=(913,465)
+264.1301 	DATA 	Mouse:  Left button up, pos=(913,465)
+269.9118 	DATA 	Keypress: 3
+269.9281 	EXP 	unnamed TextStim: text = 'trial 6 / 24'
+271.9311 	EXP 	Sound  started
+290.2270 	DATA 	Keypress: 3
+290.2435 	EXP 	unnamed TextStim: text = 'trial 7 / 24'
+292.2459 	EXP 	Sound  started
+310.9254 	DATA 	Keypress: 1
+310.9419 	EXP 	unnamed TextStim: text = 'trial 8 / 24'
+312.9464 	EXP 	Sound  started
+331.7073 	DATA 	Keypress: 2
+331.7238 	EXP 	unnamed TextStim: text = 'trial 9 / 24'
+333.7279 	EXP 	Sound  started
+352.5392 	DATA 	Keypress: 2
+352.5560 	EXP 	unnamed TextStim: text = 'trial 10 / 24'
+354.5614 	EXP 	Sound  started
+372.6545 	DATA 	Keypress: 1
+372.6707 	EXP 	unnamed TextStim: text = 'trial 11 / 24'
+374.6746 	EXP 	Sound  started
+393.7030 	DATA 	Keypress: 2
+393.7191 	EXP 	unnamed TextStim: text = 'trial 12 / 24'
+395.7231 	EXP 	Sound  started
+414.1848 	DATA 	Keypress: 2
+414.2011 	EXP 	unnamed TextStim: text = 'trial 13 / 24'
+416.2044 	EXP 	Sound  started
+434.9000 	DATA 	Keypress: 3
+434.9162 	EXP 	unnamed TextStim: text = 'trial 14 / 24'
+436.9205 	EXP 	Sound  started
+455.6651 	DATA 	Keypress: 1
+455.6813 	EXP 	unnamed TextStim: text = 'trial 15 / 24'
+457.6839 	EXP 	Sound  started
+476.1968 	DATA 	Keypress: 1
+476.2133 	EXP 	unnamed TextStim: text = 'trial 16 / 24'
+478.2173 	EXP 	Sound  started
+496.9453 	DATA 	Keypress: 3
+496.9617 	EXP 	unnamed TextStim: text = 'trial 17 / 24'
+498.9662 	EXP 	Sound  started
+517.3273 	DATA 	Keypress: 1
+517.3434 	EXP 	unnamed TextStim: text = 'trial 18 / 24'
+519.3465 	EXP 	Sound  started
+537.6936 	DATA 	Keypress: 1
+537.7253 	EXP 	unnamed TextStim: text = 'trial 19 / 24'
+539.7296 	EXP 	Sound  started
+558.4410 	DATA 	Keypress: 3
+558.4574 	EXP 	unnamed TextStim: text = 'trial 20 / 24'
+560.4611 	EXP 	Sound  started
+578.8726 	DATA 	Keypress: 3
+578.8891 	EXP 	unnamed TextStim: text = 'trial 21 / 24'
+580.8926 	EXP 	Sound  started
+600.3712 	DATA 	Keypress: 2
+600.3875 	EXP 	unnamed TextStim: text = 'trial 22 / 24'
+602.3913 	EXP 	Sound  started
+622.2196 	DATA 	Keypress: 2
+622.2359 	EXP 	unnamed TextStim: text = 'trial 23 / 24'
+624.2411 	EXP 	Sound  started
+642.6848 	DATA 	Keypress: 3
+642.7010 	EXP 	unnamed TextStim: text = 'trial 24 / 24'
+644.7045 	EXP 	Sound  started
+663.6831 	DATA 	Keypress: 1
+663.6959 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+673.8765 	DATA 	Keypress: space
+688.3726 	DATA 	Keypress: space
+688.3792 	EXP 	unnamed TextStim: text = 'trial 1 / 24'
+690.3831 	EXP 	Sound  started
+694.4489 	DATA 	Keypress: escape
+694.4489 	EXP 	Global key event: shutdown. Calling <function quit_and_save at 0x0000026413750400>.
+694.4863 	EXP 	window1: mouseVisible = True

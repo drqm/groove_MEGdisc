@@ -1,0 +1,198 @@
+---
+title: "pwr_calc"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ggplot2)
+library(lme4)
+```
+
+```{r}
+#Load sample data
+d <- read.table('pilot_means.csv', header = T, sep = ',')
+d$rhythm <- factor(d$rhythm, levels = c('iso','low','med','high'))
+d$harmony <- factor(d$harmony, levels = c('H','M'))
+```
+
+```{r}
+d$Mentrain <- d$MeterAmp - d$soundMeterAmp
+d$Nentrain <- d$noMeterAmp - d$soundNoMeterAmp
+d$MvsN <- d$Mentrain - d$Nentrain
+sd(d$Mentrain)
+sd(d$MvsN)
+```
+
+```{r}
+ggplot(d,aes(x = rhythm, y = MvsN, color = harmony)) +
+  geom_jitter(width = 0.05, height = 0) +
+  theme_bw() +
+  facet_wrap(~channel)
+```
+```{r}
+ggplot(d,aes(x = rhythm, y = Mentrain, color = harmony)) +
+  geom_jitter(width = 0.05, height = 0) +
+  theme_bw() +
+  facet_wrap(~channel)
+```
+
+```{r}
+ggplot(d,aes(x = rhythm, y = MeterAmp, color = harmony)) +
+  geom_jitter(width = 0.05, height = 0) +
+  theme_bw() +
+  facet_wrap(~channel)
+```
+```{r}
+dwidth = 0.5
+ggplot(d,aes(x = rhythm, y = Mentrain)) + #, color = harmony, fill = harmony)) +
+  geom_jitter(width = 0.05) +
+  #geom_violin(alpha = 0,trim = F,position = position_dodge(width = dwidth), color = 'black', width = 1) +
+  geom_boxplot(alpha = 0.05,width = 0.25) +#, position = position_dodge(width = dwidth),color = 'black') +
+  ylab('z-score difference\n (M/EEG power - sound envelope)') +
+  xlab('rhythmic complexity') +
+  theme_bw()
+```
+```{r}
+m1 <- lm(d$Mentrain~rhythm*harmony*channel,data = d); summary(m1)
+```
+
+```{r}
+d2 <- aggregate(d[,colnames(d)[c(1:4,9:11)]], by = list(d$rhythm,d$harmony,d$version), mean)
+colnames(d2)[1:3] <- c('rhythm','harmony','version')
+d2$rhythm <- factor(d2$rhythm, levels = c('iso','low','med','high'))
+d2$harmony <- factor(d2$harmony, levels = c('H','M'))
+
+cnames <- c('iso','low','med','high')
+for (r in 1:nrow(d2)){
+ d2[r,'rhythm2'] <- which(cnames %in% d2$rhythm[r]) 
+}
+```
+
+```{r}
+ggplot(d2,aes(x = rhythm, y = Mentrain, color = harmony)) +
+  geom_jitter(width = 0.05, height = 0) +
+  theme_bw()
+```
+
+```{r}
+m2 <- lm(Mentrain~rhythm*harmony,data = d2); summary(m2)
+```
+
+```{r}
+m3 <- lm(Mentrain~(rhythm2^2)*harmony,data = d2); summary(m3)
+```
+
+```{r}
+anova(m2,m3)
+```
+```{r}
+pwr_calc <- function(b0,b1,b2,b3,b0_sd,res_sd,nsims,ssizes){
+  pwr <- data.frame() # intialize data frame to store the output
+  for (s in 1:length(ssizes)){
+    for (n in 1:nsims){
+      idx <- (s-1)*nsims + n
+      ssize <- ssizes[s]
+     print(sprintf('sample size: %d / sim %d of %d',ssize,n,nsims))
+
+      #print(ssize)
+      #print(n)
+      conds1 <- rep(rep(1:4, each = 4), ssize) #add condition factor
+      conds2 <- rep(0:1, ssize * 8) #add condition factor 
+      subs <- rep(1:ssize, each = 16) # add subject codes
+      intercept <- rep(rnorm(ssize,b0,b0_sd), each = 16) # add intercept
+      beta1 <- rep(rep(b1, each = 4), ssize) # add condition effect
+      beta2 <- rep(b2, ssize * 8) #add condition factor
+      beta3 <- c()
+      for (c1 in 1:length(conds1)){
+          beta3[c1] <- b3[conds1[c1]]*conds2[c1] 
+      }
+      residuals <- rnorm(length(subs),0,res_sd) # add residual noise
+      
+      # collect in a dataframe and calculate simulated measured outcome (y)
+      d <- data.frame('sub' = subs,
+                      'cond1' = as.character(conds1),
+                      'cond2' = as.character(conds2),
+                      'b0' = intercept, 
+                      'b1' = beta1,
+                      'b2' = beta2,
+                      'b3' = beta3,
+                      'res' = residuals,
+                      'y' = intercept + beta1 + beta2 + beta3 + residuals)
+      
+      # fit models
+      m0 <- lmer(y~1 + (1|sub), data = d, REML = FALSE)
+      m1 <- lmer(y~cond1 + (1|sub), data = d, REML = FALSE)
+      m2 <- lmer(y~cond1 + cond2 + (1|sub), data = d, REML = FALSE)
+      m3 <- lmer(y~cond1*cond2 + (1|sub), data = d, REML = FALSE)
+      # perform likelihood ratio test
+      test1 <- anova(m0,m1)
+      test2 <- anova(m1,m2)
+      test3 <- anova(m2,m3)
+      
+      #store output of simulation
+      pwr[idx,'sim'] <- n
+      pwr[idx, 'ssize'] <- ssize
+      #pwr[idx, 'b0'] <- summary(m1)$coefficients[1]
+      #pwr[idx, 'b1'] <- summary(m1)$coefficients[2:(2+length(b1))]
+      pwr[idx, 'sd_int'] <- attr(summary(m1)$varcor$sub,"stddev")
+      pwr[idx, 'sd_res'] <- summary(m1)$sigma
+      pwr[idx, 'x2_1'] <- test1$Chisq[2]
+      pwr[idx, 'x2_2'] <- test2$Chisq[2]
+      pwr[idx, 'x2_3'] <- test3$Chisq[2]
+      pwr[idx, 'p1'] <- test1$`Pr(>Chisq)`[2]
+      pwr[idx, 'p2'] <- test2$`Pr(>Chisq)`[2]
+      pwr[idx, 'p3'] <- test3$`Pr(>Chisq)`[2]
+    }
+  }
+  return(pwr)
+}
+
+```
+
+```{r message=FALSE, warning=FALSE}
+b0 <- c(-0.2)
+b1 <- c(0,0,0.1,0) # Z # fT # uV # minimum difference between conditions
+b2 <- c(0,0.1)
+b3 <- c(0,0,0.3,0)
+
+b0_sd <- 1 # fT # standard deviation of the intercept
+res_sd <- 0.5 # fT # residual standard deviation
+nsims <- 200 # number of simulations per sample size
+ssizes <- c(20,30,40,50) # sample sizes
+```
+
+```{r message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+set.seed(900509)
+pwr1 <- pwr_calc(b0,b1,b2,b3,b0_sd,res_sd,nsims,ssizes)
+```
+
+Make a report on power, as a function of sample size:
+```{r message=FALSE, warning=FALSE}
+summary1 <- aggregate(pwr1$p1,by = list(pwr1$ssize), FUN = function(x) sum(x < 0.05)/length(x))
+colnames(summary1) <- c('sample.size','power')
+print(summary1)
+```
+
+```{r message=FALSE, warning=FALSE}
+summary2 <- aggregate(pwr1$p2,by = list(pwr1$ssize), FUN = function(x) sum(x < 0.05)/length(x))
+colnames(summary2) <- c('sample.size','power')
+print(summary2)
+```
+
+```{r message=FALSE, warning=FALSE}
+summary3 <- aggregate(pwr1$p3,by = list(pwr1$ssize), FUN = function(x) sum(x < 0.05)/length(x))
+colnames(summary3) <- c('sample.size','power')
+print(summary3)
+```
+
+And make a plot:
+```{r}
+with(summary3, plot(sample.size, power, type = 'ol'))
+title('Power curve - MEG data')
+```
+
+
