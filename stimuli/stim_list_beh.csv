@@ -1,53 +1,21 @@
-trial_code,code,number,name,rhythm,harmony,condition,block,trigger,,
-0,0,91,MENTRONOME 1 LH,iso,low,wpb,practice,0,,
-0,0,56,HIGH RHYTHM 2 LH,high,low,pwb,practice,0,,
-0,0,10,LOW RHYTHM 2 LH,low,low,bpw,practice,0,,
-0,0,37,MEDIUM 1 LH,medium,low,wbp,practice,0,,
-1,1,95,METRONOME 1 MH,iso,medium,wpb,main,1,,
-2,2,98,METRONOME 1 HH,iso,high,wpb,main,2,,
-3,3,94,METRONOME 2 MH,iso,medium,wbp,main,3,,
-4,4,97,METRONOME 2 HH,iso,high,wbp,main,4,,
-5,5,5,LOW RHYTHM 1 MH,low,medium,wpb,main,5,,
-6,6,7,LOW RHYTHM 1 HH,low,high,wpb,main,6,,
-7,7,24,LOW RHYTHM 3 MH,low,medium,wbp,main,7,,
-8,8,26,LOW RHYTHM 3 HH,low,high,wbp,main,8,,
-9,9,33,MEDIUM RHYTHM 1 MH,medium,medium,wpb,main,9,,
-10,10,35,MEDIUM RHYTHM 1 HH,medium,high,wpb,main,10,,
-11,11,50,MEDIUM RHYTHM 3 MH,medium,medium,wbp,main,11,,
-12,12,52,MEDIUM RHYTHM 3 HH,medium,high,wbp,main,12,,
-13,13,59,HIGH RHYTHM 1 MH,high,medium,wpb,main,13,,
-14,14,61,HIGH RHYTHM 1 HH,high,high,wpb,main,14,,
-15,15,69,HIGH RHYTHM 2 MH,high,medium,wbp,main,15,,
-16,16,71,HIGH RHYTHM 2 HH,high,high,wbp,main,16,,
-17,1,95,METRONOME 1 MH,iso,medium,pwb,main,1,,
-18,2,98,METRONOME 1 HH,iso,high,pwb,main,2,,
-19,3,94,METRONOME 2 MH,iso,medium,pbw,main,3,,
-20,4,97,METRONOME 2 HH,iso,high,pbw,main,4,,
-21,5,5,LOW RHYTHM 1 MH,low,medium,pwb,main,5,,
-22,6,7,LOW RHYTHM 1 HH,low,high,pwb,main,6,,
-23,7,24,LOW RHYTHM 3 MH,low,medium,pbw,main,7,,
-24,8,26,LOW RHYTHM 3 HH,low,high,pbw,main,8,,
-25,9,33,MEDIUM RHYTHM 1 MH,medium,medium,pwb,main,9,,
-26,10,35,MEDIUM RHYTHM 1 HH,medium,high,pwb,main,10,,
-27,11,50,MEDIUM RHYTHM 3 MH,medium,medium,pbw,main,11,,
-28,12,52,MEDIUM RHYTHM 3 HH,medium,high,pbw,main,12,,
-29,13,59,HIGH RHYTHM 1 MH,high,medium,pwb,main,13,,
-30,14,61,HIGH RHYTHM 1 HH,high,high,pwb,main,14,,
-31,15,69,HIGH RHYTHM 2 MH,high,medium,pbw,main,15,,
-32,16,71,HIGH RHYTHM 2 HH,high,high,pbw,main,16,,
-33,1,95,METRONOME 1 MH,iso,medium,bwp,main,1,,
-34,2,98,METRONOME 1 HH,iso,high,bwp,main,2,,
-35,3,94,METRONOME 2 MH,iso,medium,bpw,main,3,,
-36,4,97,METRONOME 2 HH,iso,high,bpw,main,4,,
-37,5,5,LOW RHYTHM 1 MH,low,medium,bwp,main,5,,
-38,6,7,LOW RHYTHM 1 HH,low,high,bwp,main,6,,
-39,7,24,LOW RHYTHM 3 MH,low,medium,bpw,main,7,,
-40,8,26,LOW RHYTHM 3 HH,low,high,bpw,main,8,,
-41,9,33,MEDIUM RHYTHM 1 MH,medium,medium,bwp,main,9,,
-42,10,35,MEDIUM RHYTHM 1 HH,medium,high,bwp,main,10,,
-43,11,50,MEDIUM RHYTHM 3 MH,medium,medium,bpw,main,11,,
-44,12,52,MEDIUM RHYTHM 3 HH,medium,high,bpw,main,12,,
-45,13,59,HIGH RHYTHM 1 MH,high,medium,bwp,main,13,,
-46,14,61,HIGH RHYTHM 1 HH,high,high,bwp,main,14,,
-47,15,69,HIGH RHYTHM 2 MH,high,medium,bpw,main,15,,
-48,16,71,HIGH RHYTHM 2 HH,high,high,bpw,main,16,,
+trial_code,code,number,name,rhythm,harmony,condition,block,trigger
+0,0,91,MENTRONOME 1 LH,iso,low,wpb,practice,0
+0,0,56,HIGH RHYTHM 2 LH,high,low,pwb,practice,0
+0,0,10,LOW RHYTHM 2 LH,low,low,bpw,practice,0
+0,0,37,MEDIUM 1 LH,medium,low,wbp,practice,0
+1,1,95,METRONOME 1 MH,iso,medium,wpb,main,1
+2,2,98,METRONOME 1 HH,iso,high,pwb,main,2
+3,3,94,METRONOME 2 MH,iso,medium,pbw,main,3
+4,4,97,METRONOME 2 HH,iso,high,bpw,main,4
+5,5,5,LOW RHYTHM 1 MH,low,medium,bwp,main,5
+6,6,7,LOW RHYTHM 1 HH,low,high,wbp,main,6
+7,7,24,LOW RHYTHM 3 MH,low,medium,wpb,main,7
+8,8,26,LOW RHYTHM 3 HH,low,high,pwb,main,8
+9,9,33,MEDIUM RHYTHM 1 MH,medium,medium,pbw,main,9
+10,10,35,MEDIUM RHYTHM 1 HH,medium,high,bpw,main,10
+11,11,50,MEDIUM RHYTHM 3 MH,medium,medium,bwp,main,11
+12,12,52,MEDIUM RHYTHM 3 HH,medium,high,wpb,main,12
+13,13,59,HIGH RHYTHM 1 MH,high,medium,pwb,main,13
+14,14,61,HIGH RHYTHM 1 HH,high,high,pbw,main,14
+15,15,69,HIGH RHYTHM 2 MH,high,medium,bpw,main,15
+16,16,71,HIGH RHYTHM 2 HH,high,high,bwp,main,16

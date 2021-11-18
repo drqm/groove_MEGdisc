@@ -75,6 +75,7 @@ for b in blocks:
         blocks[b]['order'] = np.arange(len(blocks[b]['code']))
         if b != 'practice':
             rnd.shuffle(blocks[b]['order'])
+            rnd.shuffle(blocks[b]['condition'])
 
 #function and key to quit the experiment and save log file
 def quit_and_save():
@@ -274,7 +275,7 @@ for bidx,b in enumerate(bnames):
         event.waitKeys()
 
     #run main task
-    block_run(blocks[b],blocks[b]['order'], sounds, breaks = [23])
+    block_run(blocks[b],blocks[b]['order'], sounds, breaks = [])
     
     if  (bidx + 1) < len(bnames):
         block_end_txt.draw()
