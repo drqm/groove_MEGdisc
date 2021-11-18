@@ -1,0 +1,3 @@
+subject,trialCode,code,number,name,rhythm,harmony,condition,block,startTime,response,rt,accuracy,trigger
+667,14,14,161,HIGH RHYTHM 1 HH,high,high,slower,block1,3.023692750139162,2,19.35380779998377,0,14
+667,27,11,250,MEDIUM RHYTHM 3 MH,medium,medium,equal,block1,24.398093450115994,2,19.112054100027308,1,111

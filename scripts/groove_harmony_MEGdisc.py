@@ -1,37 +1,31 @@
 # -*- coding: utf-8 -*-
 
 """
-Groove Harmony iEEG study
+Groove Harmony MEG study (David Quiroga)
 
-Script to present stimuli and record participants' ratings (David Quiroga-Martinez)
-Currently optimized for iEEG, but could be run for MEG or EEG as well.
+Script to present stimuli and record participants' accuracy in a tempo 
+discrimination task, here optimized for M/EEG.
 
 Experiment where participants (musicians and non-musicans) listen to a musical 
-pattern then rate, in one block, how much they wanted to move or, in another 
-block, how much they liked it using key presses (1-5). 
+pattern then answer whether a second, target patern is slower, equal or faster
+than the first one.
 
-RUNS FROM PSYCHOPY STANDALONE APP. NOT TESTED OUTSIDE STANDALONE APP.
+RUNS FROM PSYCHOPY STANDALONE APP (v2021.2.3). NOT TESTED OUTSIDE STANDALONE APP.
 **********************
-Stimuli (built by Tomas Matthews)
+Stimuli (built by Tomas Matthews / Sander Celma / Ole Heggli)
 ***********************
 Stimuli consist of musical patterns lasting 10 seconds that vary rhythm 
 and harmonic complexity
-    2 levels: medium or high for both rhythm and harmonic complexity
-    4 conditions: MM,MH,HM,HH
-    24 unique stims for each level of complexity (i.e. 24 medium rhythms, 24 high
-    chords etc) so:
-        24 unique stims in each block.
-        48 total
-    24 stims per design cell (e.g. medium harmony, high rhythm) and 12 per block.
+    4 levels of rhythmic complexity: isochronous, low, medium, high
+    2 levels of harmonic complexity: medium, high
+    8 conditions: IM, IH, LM, LH, MM,MH,HM,HH
 
 **************************
 Experimental design
 *************************
--factorial design: 2(rhythmic complexity) X 2(harmonic complexity)
--2 counterbalanced blocks per person
--two presentions of each stim per block
+-factorial design: 4(rhythmic complexity) X 2(harmonic complexity)
+-trials divided in 6 blocks per participant
 -trials randomized for each subject
--one break in the 24th trial of each block.
 """
 
 """
@@ -44,39 +38,34 @@ import numpy as np
 import random as rnd
 import os
 import csv
+from triggers import setParallelData
+setParallelData(0)
 
 # set the project directory
-#os.chdir('C:/Users/au571303/Documents/projects/groove_MEGdisc')
-#os.chdir('/home/stimuser/Desktop/groove_MEGdisc')
 my_path = os.path.abspath(os.path.dirname(__file__))
 os.chdir(my_path)
 os.chdir('..')
-# specify the frame rate of your screen
-#frate = 120 #60#120#60 #48 #60 #120 #
-#prd = 1000/frate # inter frame interval in ms
-send_triggers = 0#1 # in the MEG room set to 1, elsewhere set to 0
 
-if send_triggers:
-    from triggers import setParallelData # only if
-    setParallelData(0)
 # Load stimulus list and store in a dictionary
-# change the stim file below to use different stimuli 
-stim_file = open('stimuli/stim_list.csv',newline = '') 
+# change the stim file below to use different stimuli
+stim_file = open('stimuli/stim_list.csv',newline = '')
 stim_obj = csv.DictReader(stim_file,delimiter = ',')
 blocks = {}
+
 for row in stim_obj:
     blocks.setdefault(row['block'],{})
-    for column, value in row.items():  # consider .iteritems() for Python 2
+    for column, value in row.items():
         blocks[row['block']].setdefault(column, []).append(value)
 
 # get block names
 bnames = [b for b in blocks if b != 'practice']
 
-# load sounds
+# collect soundfile names:
 all_stims = []
 for b in blocks:
     all_stims = all_stims + blocks[b]['number']
 
+#load sounds
 sounds = {s: sound.Sound('stimuli/{:>02d}.wav'.format(int(s))) 
             for s in np.unique(all_stims)}
 
@@ -93,11 +82,13 @@ def quit_and_save():
        logfile.close()
     logging.flush()
     core.quit()
+    
 event.globalKeys.add(key='escape', func=quit_and_save, name='shutdown')
 
 #response keys
 resp_keys = ['1','2','3','escape']
 
+# Choose current blocks
 blocks_msg = ''
 for bidx, b in enumerate(bnames):
     blocks_msg = blocks_msg + b
@@ -127,7 +118,7 @@ win = visual.Window(fullscr=True, color='black')
 # set frame rate
 frate = np.round(win.getActualFrameRate())
 prd = 1000 / frate
-print('screen fps = {} - cycle duration = {}'.format(frate,  prd))
+print('screen fps = {} - cycle duration = {} ms'.format(frate,  np.round(prd,2)))
 
 # create all the text to be displayed
 fixation = visual.TextStim(win, text='+', color=txt_color, height=0.2)
@@ -135,21 +126,22 @@ instructions_txt =  visual.TextStim(win,
                 text = 'You will hear a short musical pattern.\n\n'
                 'A few seconds later, you will hear a second, shorter target pattern. \n\n'
                 'This pattern could be played slower, equal or faster than the first one.\n\n'
-                'Please indicate whether the target pattern was slower, equal or faster by pressing the buttons as follows:\n\n '
+                'Please indicate whether the target pattern was slower, equal or faster by '
+                'pressing the buttons as follows:\n\n '
                 '1 = slower\n'
                 '2 = equal \n'
                 '3 = faster\n\n'
                 'It is very important that during the silent period between the two patterns '
                 'you VIVIDLY IMAGINE the beat in your mind (without moving!).\n'
                 'Press a button to continue.',
-                color=txt_color, wrapWidth=1.8)  
+                color=txt_color, wrapWidth=1.8)
 
 rating_txt = visual.TextStim(win, 
                 text = 'Was the target pattern slower, equal or faster?\n\n'
                             '1 = slower\n'
                             '2 = equal \n'
                             '3 = faster\n\n\n\n'
-                        'remember to always imagine the beat between patterns\n'
+                        'Remember to always imagine the beat between patterns\n'
                           '(without moving!)', 
                 color=txt_color, wrapWidth=1.8)
 
@@ -206,9 +198,9 @@ def block_run(s_dict, s_order, b_sounds, breaks=[]):
                 'code': experiment specific stimulus code
                 'name': stimulus name
                 'number': stimulus number corresponding to wav file
-                'rhythm': rhythm complexity (low,medium,high)
-                'harmony': harmony complexity (low, medium, high)
-                'condition': 'pleasure' or 'wanting to move'
+                'rhythm': rhythm complexity (iso,low,medium,high)
+                'harmony': harmony complexity (medium, high)
+                'condition': slower, equal, faster
                 'block': 'practice' or 'main'
 
             each list contains the above information for each trial in the
@@ -225,7 +217,6 @@ def block_run(s_dict, s_order, b_sounds, breaks=[]):
         m = s_dict['number'][midx]
         trialtxt.setText('trial {} / {}'.format(mtrial + 1, len(s_order)))
         trialtxt.draw()
-        #fixation.draw()
         win.flip()
         core.wait(1)
         fixation.draw()
@@ -234,22 +225,21 @@ def block_run(s_dict, s_order, b_sounds, breaks=[]):
         nextFlip = win.getFutureFlipTime(clock='ptb')
         startTime = win.getFutureFlipTime(clock=exp_time)
         trigger = int(s_dict['trigger'][midx])
-        if send_triggers:
-            win.callOnFlip(setParallelData, int(trigger)) # only if MEG in Aarhus
-        win.callOnFlip(print, trigger)
+        win.callOnFlip(setParallelData, int(trigger))
+        #win.callOnFlip(print, trigger)
         b_sounds[m].play(when = nextFlip)
         RT.reset()
+        
         # we synchronize stimulus delivery with screen frames for time acc.
         for frs in range(int(np.round(50/prd))): # wait 18 seconds
             fixation.draw()
             win.flip()
-        if send_triggers:
-            win.callOnFlip(setParallelData, 0) # only if MEG in Aarhus
+        win.callOnFlip(setParallelData, 0) # only if MEG in Aarhus
         for frs in range(int(np.round(14950/prd))): # wait 18 seconds
             fixation.draw()
             win.flip()
         event.clearEvents(eventType=None)#'keyboard')
-        for frs in range(int(np.round(3000/prd))): # wait 18 seconds
+        for frs in range(int(np.round(2700/prd))): # wait 17.7 seconds
             fixation.draw()
             win.flip()
         resp = None
@@ -257,13 +247,15 @@ def block_run(s_dict, s_order, b_sounds, breaks=[]):
             rating_txt.draw()
             win.flip()
             key = event.getKeys(timeStamped = RT, keyList = resp_keys)
-            #search for key presses. If none, set limit of 21 (15 + 6) seconds.
+            #search for key presses and continue if found one
             if len(key) > 0:
                 resp = key[0][0]
                 rt = key[0][1]
-#            elif RT.getTime() > 21: #17 after trial onset
-#                resp = 0
-#                rt = RT.getTime()
+                
+            # If you want to put a time limit on the response, uncomment:
+            #elif RT.getTime() > 21: #17 after trial onset
+            #    resp = 0
+            #    rt = RT.getTime()
 
         cacc = int(int(resp) == int(m) // 100)
         accuracy.append([cacc])
@@ -281,7 +273,6 @@ def block_run(s_dict, s_order, b_sounds, breaks=[]):
 
 # Now run the experiment
 #bnames = rnd.shuffle(bnames) # counterbalance blocks
-# present instructions
 
 for bidx,b in enumerate(bnames):
     instructions_txt.draw()
@@ -308,7 +299,7 @@ for bidx,b in enumerate(bnames):
         event.waitKeys(keyList = ['space'])
 
     #run main task
-    block_run(blocks[b],blocks[b]['order'], sounds, breaks = [])
+    block_run(blocks[b],blocks[b]['order'], sounds, breaks = [11])
     block_end_txt = visual.TextStim(win, 
             text = 'This is the end of the block ({}).\n\n'
                    'Now take a little break. We will continue in a moment'.format(b),
