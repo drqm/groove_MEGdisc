@@ -3,17 +3,17 @@
 Groove Harmony behavioral ratings
 
 Script to present stimuli and record participants' ratings
-currently optimized for behavioral test in the scanner 
+currently optimized for behavioral test in the scanner
 
-Experiment where participants listen to a musical 
+Experiment where participants listen to a musical
 pattern then rate how much they wanted to move, how much pleasure they experienced
-and how strong the beat was using key presses (1-5). 
+and how strong the beat was using key presses (1-5).
 
 RUNS FROM PSYCHOPY STANDALONE APP (v2021.2.3). NOT TESTED OUTSIDE STANDALONE APP.
 **********************
 Stimuli (built by Tomas Matthews / Sander Celma / Ole Heggli)
 ***********************
-Stimuli consist of musical patterns lasting 10 seconds that vary rhythm 
+Stimuli consist of musical patterns lasting 10 seconds that vary rhythm
 and harmonic complexity
     4 levels of rhythmic complexity: isochronous, low, medium, high
     2 levels of harmonic complexity: medium, high
@@ -48,8 +48,8 @@ os.chdir(my_path)
 os.chdir('..')
 
 # Load stimulus list and store in a dictionary
-# change the stim file below to use different stimuli 
-stim_file = open('stimuli/stim_list_beh.csv',newline = '') 
+# change the stim file below to use different stimuli
+stim_file = open('stimuli/stim_list_beh.csv',newline = '')
 stim_obj = csv.DictReader(stim_file,delimiter = ',')
 blocks = {}
 
@@ -67,7 +67,7 @@ for b in blocks:
     all_stims = all_stims + blocks[b]['number']
 
 # load sounds
-sounds = {s: sound.Sound('stimuli/{0:0>2}.wav'.format(int(s))) 
+sounds = {s: sound.Sound('stimuli/{0:0>2}.wav'.format(int(s)))
             for s in np.unique(all_stims)}
 
 # randomize trial order
@@ -84,7 +84,7 @@ def quit_and_save():
        logfile.close()
     logging.flush()
     core.quit()
-    
+
 event.globalKeys.add(key='escape', func=quit_and_save, name='shutdown')
 
 #response keys
@@ -112,7 +112,7 @@ print('screen fps = {} - cycle duration = {} ms'.format(frate,  np.round(prd,2))
 
 # create all the text to be displayed
 fixation = visual.TextStim(win, text='+', color=txt_color, height=0.2)
-instructions =  visual.TextStim(win, 
+instructions =  visual.TextStim(win,
                 text = 'You will hear various short musical patterns.\n'
                 'After each one, you will be asked three questions in random order:\n\n\n'
                 'a. The degree to which the musical pattern made you WANT TO MOVE\n\n'
@@ -129,12 +129,12 @@ rating_txt['p'] = ('How much pleasure did you experience listening to this music
 
 rating_txt['w'] = ('How much did this musical pattern make you want to move?\n\n'
                     'not at all  < 1    2    3    4    5 >  very much')
-                
+
 
 rating_txt['b'] = ('How strong was the beat in the musical pattern?\n\n'
                     'very weak  < 1    2    3    4    5 >  very strong')
 
-practice = visual.TextStim(win, 
+practice = visual.TextStim(win,
                 text = 'First, let us do some practice trials.\n\n'
                     'When ready, press spacebar to hear the first musical pattern.',
                 color=txt_color, wrapWidth=1.8)
@@ -150,12 +150,12 @@ break_txt = visual.TextStim(win,
                         'Press spacebar when ready to continue.',
                 color=txt_color, wrapWidth=1.8)
 
-block_end_txt = visual.TextStim(win, 
+block_end_txt = visual.TextStim(win,
                 text = 'This is the end of the first block.\n\n'
                         'Now take a little break and press space when ready to continue',
                 color=txt_color, wrapWidth=1.8)
 
-end_txt = visual.TextStim(win, 
+end_txt = visual.TextStim(win,
                 text = 'This is the end of the experiment.\n'
                        'Thanks for participating!',
                 color=txt_color, wrapWidth=1.8)
@@ -181,7 +181,7 @@ logfile.write("subject,trialCode,code,number,name,rhythm,harmony,"
 # make function to loop over trials and present the stimuli
 def block_run(s_dict, s_order, b_sounds, breaks=[]):
     """
-    s_dict: dictionary containing the stimulus list and metadata, as loaded 
+    s_dict: dictionary containing the stimulus list and metadata, as loaded
             from a csv file. Must contain the lists:
 
                 'trial_code': code of the trial before randomization
@@ -217,9 +217,9 @@ def block_run(s_dict, s_order, b_sounds, breaks=[]):
         win.callOnFlip(setParallelData, int(trigger)) # only if MEG in Aarhus
         #win.callOnFlip(print, trigger)
         b_sounds[m].play(when = nextFlip)
-        
+
         # we synchronize stimulus delivery with screen frames for time acc.
-        for frs in range(int(np.round(5000/prd))): # wait 10 seconds
+        for frs in range(int(np.round(10000/prd))): # wait 10 seconds
             fixation.draw()
             win.flip()
         resp, rt = {}, {}
@@ -253,7 +253,7 @@ def block_run(s_dict, s_order, b_sounds, breaks=[]):
             break_txt.draw()
             win.flip()
             event.waitKeys()
- 
+
 # Now run the experiment.
 # present instructions
 instructions.draw()
@@ -261,7 +261,7 @@ win.flip()
 event.waitKeys()
 
 for bidx,b in enumerate(bnames):
-    
+
     # run practice trials if requested
     if practice_switch == 1:
         practice.draw()
@@ -276,7 +276,7 @@ for bidx,b in enumerate(bnames):
 
     #run main task
     block_run(blocks[b],blocks[b]['order'], sounds, breaks = [])
-    
+
     if  (bidx + 1) < len(bnames):
         block_end_txt.draw()
         win.flip()
@@ -285,4 +285,3 @@ for bidx,b in enumerate(bnames):
 end_txt.draw()
 win.flip()
 core.wait(2)
-
